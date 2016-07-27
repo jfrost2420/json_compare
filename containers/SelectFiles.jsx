@@ -16,16 +16,16 @@ export default class SelectFiles extends React.Component {
       height: this.props.windowHeight + 'px'
     };
     const styleLeft = {
-      width: '50%',
+      width: '49%',
       float: 'left',
-      overflowY: 'scroll',
-      height: this.props.windowHeight + 'px'
+      height: this.props.windowHeight + 'px',
+      marginLeft: '5px'
     };
     const styleRight = {
-      width: '50%',
+      width: '49%',
       float: 'right',
-      overflowY: 'scroll',
-      height: this.props.windowHeight + 'px'
+      height: this.props.windowHeight + 'px',
+      marginRight: '5px'
     };
     return (
       <div style={style}>
@@ -33,10 +33,10 @@ export default class SelectFiles extends React.Component {
           Click Me : SelectFiles... {this.props.clicks}
         </div>
         <div style={styleLeft}>
-          <FileSelector type='primary' setPrimaryFile={this.props.setPrimaryFile} primaryFile={this.props.primaryFile}/>
+          <FileSelector type='primary' setPrimaryFile={this.props.setPrimaryFile} primaryFile={this.props.primaryFile} windowHeight={this.props.windowHeight}/>
         </div>
         <div style={styleRight}>
-          <FileSelector type='secondary' setPrimaryFile={this.props.setPrimaryFile} secondaryFile={this.props.secondaryFile}/>
+          <FileSelector type='secondary' setPrimaryFile={this.props.setPrimaryFile} secondaryFile={this.props.secondaryFile} windowHeight={this.props.windowHeight}/>
         </div>
       </div>
     );
