@@ -11,7 +11,7 @@ export class App extends React.Component {
     super(props);
       this.state = {
         count: 0,
-        step: 1,
+        step: 0,
         windowHeight: 0
       };
   }
