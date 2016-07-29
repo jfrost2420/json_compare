@@ -9,18 +9,18 @@ export class App extends React.Component {
 
   constructor(props) {
     super(props);
-      this.state = {
-        count: 0,
-        step: 0,
-        windowHeight: 0
-      };
+    this.state = {
+      count: 0,
+      step: 0,
+      windowHeight: 0
+    };
   }
   
   tick(value) {
     this.setState({step: value, count: this.state.count + 1});
   }
 
-  setPrimaryFile(type, data) {
+  setFile(type, data) {
     if (type === 'primary') {
       this.setState({primaryFile: JSON.parse(data)});
     }
@@ -36,7 +36,7 @@ export class App extends React.Component {
         return <FileSelector 
                     onClick={this.tick.bind(this)} 
                     clicks={this.state.count} 
-                    setPrimaryFile={this.setPrimaryFile.bind(this)} 
+                    setFile={this.setFile.bind(this)} 
                     primaryFile={this.state.primaryFile} 
                     secondaryFile={this.state.secondaryFile} 
                     windowHeight={this.state.windowHeight}/>
@@ -44,6 +44,8 @@ export class App extends React.Component {
         return <FileCompare 
                     onClick={this.tick.bind(this)} 
                     clicks={this.state.count} 
+                    primaryFile={this.state.primaryFile} 
+                    secondaryFile={this.state.secondaryFile} 
                     windowHeight={this.state.windowHeight}/>
     }
   }

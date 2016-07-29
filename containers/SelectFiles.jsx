@@ -33,10 +33,10 @@ export default class SelectFiles extends React.Component {
           Click Me : SelectFiles... {this.props.clicks}
         </div>
         <div style={styleLeft}>
-          <FileSelector type='primary' setPrimaryFile={this.props.setPrimaryFile} primaryFile={this.props.primaryFile} windowHeight={this.props.windowHeight}/>
+          <FileSelector type='primary' setFile={this.props.setFile} primaryFile={this.props.primaryFile} windowHeight={this.props.windowHeight}/>
         </div>
         <div style={styleRight}>
-          <FileSelector type='secondary' setPrimaryFile={this.props.setPrimaryFile} secondaryFile={this.props.secondaryFile} windowHeight={this.props.windowHeight}/>
+          <FileSelector type='secondary' setFile={this.props.setFile} secondaryFile={this.props.secondaryFile} windowHeight={this.props.windowHeight}/>
         </div>
       </div>
     );

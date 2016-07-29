@@ -16,7 +16,7 @@ export default class FileSelector extends React.Component {
     var readerOnload = function(file) {
       console.log('file:',file);
       contents = file.target.result;
-      this.props.setPrimaryFile(this.props.type, contents);
+      this.props.setFile(this.props.type, contents);
     };
 
     reader.onload = readerOnload.bind(this);
@@ -34,7 +34,7 @@ export default class FileSelector extends React.Component {
       data = this.props.secondaryFile;
     }
 
-    var json = JSON.stringify(data);
+    var json = JSON.stringify(data, null, ' ');
     var blob = new Blob([json], {type: "application/json"});
     var url  = URL.createObjectURL(blob);
 
