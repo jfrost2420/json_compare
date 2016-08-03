@@ -12,11 +12,13 @@ export class App extends React.Component {
     this.state = {
       count: 0,
       step: 0,
-      windowHeight: 0
+      windowHeight: 0,
+      primaryFile: null,
+      secondaryFile: null
     };
   }
   
-  tick(value) {
+  switchViews(value) {
     this.setState({step: value, count: this.state.count + 1});
   }
 
@@ -34,7 +36,7 @@ export class App extends React.Component {
     switch(this.state.step) {
       case 0:
         return <FileSelector 
-                    onClick={this.tick.bind(this)} 
+                    onClick={this.switchViews.bind(this)} 
                     clicks={this.state.count} 
                     setFile={this.setFile.bind(this)} 
                     primaryFile={this.state.primaryFile} 
@@ -42,7 +44,7 @@ export class App extends React.Component {
                     windowHeight={this.state.windowHeight}/>
       case 1:
         return <FileCompare 
-                    onClick={this.tick.bind(this)} 
+                    onClick={this.switchViews.bind(this)} 
                     clicks={this.state.count} 
                     primaryFile={this.state.primaryFile} 
                     secondaryFile={this.state.secondaryFile} 

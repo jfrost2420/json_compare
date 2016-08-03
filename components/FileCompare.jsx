@@ -1,8 +1,9 @@
 import React from 'react';
+
 export default class FileCompare extends React.Component {
 
   flattenJSON(data) {
-    //var data = this.props.primaryFile;
+
     var result = {};
 
     function recurse(cur, prop) {
@@ -25,34 +26,45 @@ export default class FileCompare extends React.Component {
     return result;
   }
 
+  unflattenJSON(data) {
+    "use strict";
+    if (Object(data) !== data || Array.isArray(data)) return data;
+    var regex = /\.?([^.\[\]]+)|\[(\d+)\]/g,
+    resultholder = {};
+    for (var p in data) {
+        var cur = resultholder,
+            prop = "",
+            m;
+        while (m = regex.exec(p)) {
+            cur = cur[prop] || (cur[prop] = (m[2] ? [] : {}));
+            prop = m[2] || m[1];
+        }
+        cur[prop] = data[p];
+    }
+    return resultholder[""] || resultholder;
+  }
+
   generateFileComparission() {
-    //flatten the primaryFile
-    //flatten the secondaryFile
-
-    //iterate over the primary file and for each key create a new json object:
-      /* {
-            <flattened_key>: {parimaryValue: '', secondaryValue: ''}
-         } */
-
     var comparrisonObject = {};
-
     var primaryFlattenFile = '';
     var secondaryFlattenFile = '';
+
     primaryFlattenFile = this.flattenJSON(this.props.primaryFile); //JSON.stringify(this.flattenJSON(this.props.primaryFile), null, ' '); // JSON.stringify(this.props.primaryFile, null, ' ');
-    secondaryFlattenFile = this.flattenJSON(this.props.secondaryFile);
+    this.secondaryFlattenFile = this.flattenJSON(this.props.secondaryFile);
 
     for (var obj in primaryFlattenFile) {
-      console.log(obj);
+      //console.log(obj);
 
       comparrisonObject[obj] = {primaryValue: primaryFlattenFile[obj]};
+      comparrisonObject[obj].key = obj;
 
-      if (secondaryFlattenFile[obj]) {
-        console.log('found in secondary');
-        comparrisonObject[obj].secondaryValue = secondaryFlattenFile[obj];
+      if (this.secondaryFlattenFile[obj]) {
+        //console.log('found in secondary');
+        comparrisonObject[obj].secondaryValue = this.secondaryFlattenFile[obj];
 
       }
       else {
-        console.log('not found in secondary');
+        //console.log('not found in secondary');
         comparrisonObject[obj].secondaryValue = '';
       }
     }
@@ -60,36 +72,90 @@ export default class FileCompare extends React.Component {
     return comparrisonObject;
   }
 
-  componentDidMount() {
-    console.log('componentDidMount...');
-    if (this.props.primaryFile) {
-      //this.flattenJSON();
-    }
+  onUpdateClicked(e, key) {
+    console.log('onUpdateClicked...', this.refs[key].value)
+    console.log('original value...', this.secondaryFlattenFile[key]);
+
+    this.secondaryFlattenFile[key] = this.refs[key].value;
   }
 
-  componentWillUnmount() {
-    console.log('componentWillUnmount...');
+  onSaveClicked(e) {
+    var data = this.unflattenJSON(this.secondaryFlattenFile);
+    var json = JSON.stringify(data, null, ' ');
+    var blob = new Blob([json], {type: "application/json"});
+    var url  = URL.createObjectURL(blob);
+
+    var a = document.createElement('a');
+    a.download    = "new_translated_file.json";
+    a.href        = url;
+    a.textContent = "new_translated_file.json";
+
+    this.refs.contentDownload.appendChild(a);
   }
 
   render() {
     const style = {
       borderColor: 'black',
       borderStyle: 'solid',
-      borderWidth: '2px',
-      height: this.props.windowHeight + 'px'
+      borderWidth: '1px',
+      height: this.props.windowHeight - 100 + 'px',
+      overflowY: 'scroll'
     };
 
-    var data = '';
-    data = JSON.stringify(this.generateFileComparission(), null, ' ');
+    const cellStyle = {
+      width: '30%',
+      overflowX: 'scroll'
+    };
 
+    const editCellStyle = {
+      width: '35%'
+    };
 
+    const updateCellStyle = {
+      width: '5%'
+    };
+
+    const tableStyle = {
+      tableLayout: 'fixed',
+      width: '100%'
+    };
+
+    const inputStyle = {
+      width: '100%'
+    };
+
+    const saveButtonStyle= {
+      marginTop: '5px',
+      marginRight: '5px'
+    };
+
+    var data = this.generateFileComparission();
+    var displayData;
+    var rows = [];
+
+    var buildRows = function(key) {
+      return rows.push(<tr key={key}>
+                            <td style={cellStyle}><span>{key}</span></td>
+                            <td style={cellStyle}><span>{data[key].primaryValue}</span></td>
+                            <td style={editCellStyle}><input ref={key} style={inputStyle} placeholder="value" defaultValue={data[key].secondaryValue}></input></td>
+                            <td><button type="button" className="btn btn-default btn-xs" onClick={e => this.onUpdateClicked(e.target, key)}>update</button></td>
+                          </tr>);
+    };
+
+    Object.keys(data).map(buildRows.bind(this))
+    
     return (
+      <div>
       <div style={style}>
-        FileCompare....
-        <pre>
-          {data}
-        </pre>
+        <table style={tableStyle} className="table table-striped">
+          <tbody>
+            {rows}
+          </tbody>
+        </table>
+      </div>
+      <button type="button" className="btn btn-primary pull-right" style={saveButtonStyle} onClick={e => this.onSaveClicked(e.target)}>Create New Translated File</button><span id="contentDownload" ref="contentDownload"></span>
       </div>
     );
   }
 }
+

@@ -3,16 +3,12 @@ import React from 'react';
 import FileSelector from '../components/FileSelector';
 
 export default class SelectFiles extends React.Component {
-  tick() {
-    console.log('tick...');
-    this.props.onClick(1);
-  }
 
   render() {
     const style = {
       borderColor: 'red',
       borderStyle: 'solid',
-      borderWidth: '2px',
+      borderWidth: '0px',
       height: this.props.windowHeight + 'px'
     };
     const styleLeft = {
@@ -27,10 +23,13 @@ export default class SelectFiles extends React.Component {
       height: this.props.windowHeight + 'px',
       marginRight: '5px'
     };
+    const compareButtonStyle = {
+      margin: '5px'
+    }
     return (
       <div style={style}>
-        <div onClick={this.tick.bind(this)}>
-          Click Me : SelectFiles... {this.props.clicks}
+        <div>
+          <button type="button" className="btn btn-primary" style={compareButtonStyle} onClick={e => this.props.onClick(1)}>Compare Files</button>
         </div>
         <div style={styleLeft}>
           <FileSelector type='primary' setFile={this.props.setFile} primaryFile={this.props.primaryFile} windowHeight={this.props.windowHeight}/>
