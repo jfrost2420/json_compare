@@ -45,31 +45,39 @@ export default class FileCompare extends React.Component {
   }
 
   generateFileComparission() {
-    var comparrisonObject = {};
-    var primaryFlattenFile = '';
-    var secondaryFlattenFile = '';
 
-    primaryFlattenFile = this.flattenJSON(this.props.primaryFile); //JSON.stringify(this.flattenJSON(this.props.primaryFile), null, ' '); // JSON.stringify(this.props.primaryFile, null, ' ');
-    this.secondaryFlattenFile = this.flattenJSON(this.props.secondaryFile);
+    var that = this;
 
-    for (var obj in primaryFlattenFile) {
-      //console.log(obj);
+    var promise = new Promise(function(resolve, reject) {
+      var comparrisonObject = {};
+      var primaryFlattenFile = '';
+      var secondaryFlattenFile = '';
 
-      comparrisonObject[obj] = {primaryValue: primaryFlattenFile[obj]};
-      comparrisonObject[obj].key = obj;
+      primaryFlattenFile = that.flattenJSON(that.props.primaryFile); //JSON.stringify(this.flattenJSON(this.props.primaryFile), null, ' '); // JSON.stringify(this.props.primaryFile, null, ' ');
+      that.secondaryFlattenFile = that.flattenJSON(that.props.secondaryFile);
 
-      if (this.secondaryFlattenFile[obj]) {
-        //console.log('found in secondary');
-        comparrisonObject[obj].secondaryValue = this.secondaryFlattenFile[obj];
+      for (var obj in primaryFlattenFile) {
+        //console.log(obj);
 
+        comparrisonObject[obj] = {primaryValue: primaryFlattenFile[obj]};
+        comparrisonObject[obj].key = obj;
+
+        if (that.secondaryFlattenFile[obj]) {
+          //console.log('found in secondary');
+          comparrisonObject[obj].secondaryValue = that.secondaryFlattenFile[obj];
+
+        }
+        else {
+          //console.log('not found in secondary');
+          comparrisonObject[obj].secondaryValue = '';
+        }
       }
-      else {
-        //console.log('not found in secondary');
-        comparrisonObject[obj].secondaryValue = '';
-      }
-    }
 
-    return comparrisonObject;
+      resolve(comparrisonObject);
+    })
+
+
+    return promise;
   }
 
   onUpdateClicked(e, key) {
@@ -91,6 +99,12 @@ export default class FileCompare extends React.Component {
     a.textContent = "new_translated_file.json";
 
     this.refs.contentDownload.appendChild(a);
+  }
+
+  componentDidMount() {
+    console.log('componentDidMount...');
+    setTimeout(() => {this.setState({done:true});}, 2000)
+    
   }
 
   render() {
@@ -130,26 +144,43 @@ export default class FileCompare extends React.Component {
     };
 
     var data = this.generateFileComparission();
-    var displayData;
-    var rows = [];
+    var rows = [<tr key={'123'}><td>loading...</td></tr>];
+    var rows2 = [<tr key={'123'}><td>done...</td></tr>];
+    var that = this;
 
-    var buildRows = function(key) {
-      return rows.push(<tr key={key}>
-                            <td style={cellStyle}><span>{key}</span></td>
-                            <td style={cellStyle}><span>{data[key].primaryValue}</span></td>
-                            <td style={editCellStyle}><input ref={key} style={inputStyle} placeholder="value" defaultValue={data[key].secondaryValue}></input></td>
-                            <td><button type="button" className="btn btn-default btn-xs" onClick={e => this.onUpdateClicked(e.target, key)}>update</button></td>
-                          </tr>);
-    };
+    var temp = function(compareFile) {
+      var displayData;
+      
 
-    Object.keys(data).map(buildRows.bind(this))
-    
+      var buildRows = key => {
+        return rows.push(<tr key={key}>
+                              <td style={cellStyle}><span>{key}</span></td>
+                              <td style={cellStyle}><span>{compareFile[key].primaryValue}</span></td>
+                              <td style={editCellStyle}><input ref={key} style={inputStyle} placeholder="value" defaultValue={compareFile[key].secondaryValue}></input></td>
+                              <td><button type="button" className="btn btn-default btn-xs" onClick={e => this.onUpdateClicked(e.target, key)}>update</button></td>
+                            </tr>);
+      };
+
+      Object.keys(compareFile).map(buildRows.bind(this))
+
+      var test = '';  
+      //this.setState({});  
+    }
+
+    data.then(temp.bind(this));
+    var ret;
+    if(this.state && this.state.done) {
+      ret = rows2;
+    } 
+    else {
+      ret = rows;
+    }
     return (
       <div>
       <div style={style}>
         <table style={tableStyle} className="table table-striped">
           <tbody>
-            {rows}
+            {ret}
           </tbody>
         </table>
       </div>
