@@ -1,0 +1,1823 @@
+{
+  "_LANG_UNUSED_WARNING": "// this file is auto-generated.  DO NOT MODIFY.  [Five9-ADP,Thu Mar 24 2016 18:09:37 GMT-0400 (EDT)] \n",
+  "S_ABOUT_DIALOG": {
+    "S_TITLE": "Au sujet de",
+    "S_APPLICATION": "Ordinateur d’agent Five9 Plus",
+    "S_VCC_VERSION_LABEL": "Version VCC :",
+    "S_BUILD_LABEL": "ID de version :",
+    "S_COPYRIGHT": "Copyright &copy; 2001-2016 Five9, inc. Tous droits réservés.",
+    "S_BUILD_DATE": "Date de version :",
+    "S_AGENT_VERSION_LABEL": "Version d’agent :",
+    "S_UI_VERSION_LABEL": "Version IU :",
+    "S_DISMISS": "Ignorer"
+  },
+  "S_ADD_NOTE_DIALOG": {
+    "S_TITLE": "Ajouter une remarque",
+    "S_ADD_NOTE_PLACE_HOLDER": "Saisir une remarque..."
+  },
+  "S_ADDRESS_BOOK_SPARSE": {
+    "S_TITLE": "Retourner l’appel",
+    "S_CONFIRM": "Faire un appel",
+    "S_CANCEL": "Annuler",
+    "S_CAMPAIGN": "Campagne :"
+  },
+  "S_ADDRESS_BOOK": {
+    "S_TITLE": "Faire un appel",
+    "S_FILTER_TITLE": "Montrer :",
+    "S_WARM_CONFERENCE": "En attente",
+    "S_INCLUDE_CALLER_INFO": "Inclure l’info de l’appelant",
+    "S_TIMEOUT": "Temporisation :",
+    "S_RECORD_VOICEMAIL": "Enregistrer le message vocal",
+    "S_NO_DISPOSITIONS": "Aucune disposition valide",
+    "S_MAKE_CALL": "Faire un appel",
+    "S_CALL_CUSTOMER": "Appeler le client",
+    "S_CANCEL_CALL": "Annuler",
+    "S_CALL_ACTION": "Appel",
+    "S_DISPOSITION": "Disposition",
+    "S_COMPLETE_TRANSFER": "Terminer le transfert",
+    "S_COMPLETE_CONFERENCE": "Terminer la conférence téléphonique",
+    "S_COMPLETE_CONFERENCE_ERROR": "Impossible de terminer la conférence en attente.",
+    "S_CURRENT_PARTICIPANTS": "Participants actuels ({0}) :",
+    "S_DIAL_PAD": "Clavier téléphonique",
+    "S_TYPES": {
+      "S_AGENTS": "Agents",
+      "S_AGENT": "Agent",
+      "S_SKILLGROUPS": "Groupes de compétences",
+      "S_SKILLGROUP": "Groupe de compétences",
+      "S_SPEEDDIALS": "Compositions abrégées",
+      "S_SPEEDDIAL": "Composition abrégée",
+      "S_CAMPAIGNS": "Campagnes",
+      "S_CAMPAIGN": "Campagne",
+      "S_EXTERNAL": "Externe"
+    }
+  },
+  "S_AGENT_PREP_WIZARD": {
+    "S_READY": "Me préparer",
+    "S_FINISH": "Afficher mon tableau de bord"
+  },
+  "S_ACTIVITY_SCREEN": {
+    "S_HEADER_TITLE": "Mon activité",
+    "S_NO_INTERACTIONS": "Vous n’avez encore traité<br/>aucune interaction."
+  },
+  "S_SCREEN_CHAT": {
+    "S_TITLES": "Clavardage"
+  },
+  "S_CONTACT_DETAILS_INFO": {
+    "S_NONE": "Aucune",
+    "S_EXTENSION": "Poste :",
+    "S_AGENT_NAME": "Nom de l’agent :",
+    "S_PERSONAL_INFO": "Renseignements personnels",
+    "S_SOCIAL_PROFILE": "Profil social",
+    "S_CONTACT_NOTES": "Notes au sujet du contact",
+    "S_TYPE_HERE": "Saisir ici...",
+    "S_AVATAR": "Avatar",
+    "S_GENDER": "Sexe",
+    "S_PUBLIC_INFLUENCE": "Influence publique",
+    "S_CORPORATE_INFLUENCE": "Influence dans les affaires",
+    "S_SPAM_SCORE": "Indice de pourriel",
+    "S_ADD_ACCOUNT": "Ajouter un compte",
+    "S_HANDLE_NAME": "Pseudo",
+    "S_HANDLE_URL": " URL",
+    "S_HANDLE_AVATAR": " Avatar",
+    "S_ACCOUNT_HANDLE": "Saisir le nom du pseudo...",
+    "S_ACCOUNT_URL": "Saisir une URL valide pour le pseudo...",
+    "S_ACCOUNT_AVATAR": "Saisir une URL valide pour l’avatar...",
+    "S_ACCOUNT_REMOVE": "Supprimer le compte",
+    "S_ADD_NOTE": "Ajouter une remarque",
+    "S_NOTE_ADD_WARNING": "Enregistrer le contact avant d’ajouter des remarques",
+    "S_UNKNOWN": "Inconnu"
+  },
+  "S_CONTACT_DETAIL": {
+    "S_NO_CONTACT_SELECTED": "Aucun contact sélectionné",
+    "S_SEARCH": "Recherche de contacts",
+    "S_OR": "ou",
+    "S_CREATE": "en créer un nouveau",
+    "S_CONTACT": "Contact",
+    "S_SAVE": "Enregistrer",
+    "S_CANCEL": "Annuler",
+    "S_TAB_CONTEXT": "CONTACT",
+    "S_TAB_HISTORY": "HISTORIQUE",
+    "S_ATTACH_TO": "Joindre à l’enregistrement actuel",
+    "S_ADD_REMINDER": "Ajouter un rappel",
+    "S_ADD_TO_DNC": "Ajouter à la liste d’exclusion (LNNTE)",
+    "S_DELETE_CONTACT_TITLE": "SUPPRIMER LE CONTACT",
+    "S_DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer ce contact?<br><span class='confirmation-message-important'>{0}</span>",
+    "S_DELETE": "Supprimer",
+    "S_CONTACT_UPDATED": "Enregistrement de contact mis à jour avec succès.",
+    "S_ERROR_SAVING_CONTACT": "Erreur lors de l’enregistrement du contact",
+    "S_FIELD_VALIDATION_TITLE": "Problème de validation du champ",
+    "S_ERROR_EMPTY_VALUE": "Veuillez saisir une valeur dans le champ {0}.",
+    "S_ERROR_STRING_MIN_LENGTH": "Veuillez saisir au moins {0} caractères dans le champ {1}.",
+    "S_ERROR_STRING_MAX_LENGTH": "Veuillez saisir moins de {0} caractères dans le champ {1}.",
+    "S_ERROR_INVALID_EMAIL_ADDRESS": "Veuillez saisir une adresse de courriel valide dans le champ {0}.",
+    "S_SAVE_CONTACT": "Enregistrer le contact",
+    "S_SAVE_BLANK": "L’enregistrement de ce contact est vierge, veuillez le remplir avant d’enregistrer."
+  },
+  "S_CONTACT_DIALOG": {
+    "S_TITLE": "Affichage CONTACT"
+  },
+  "S_CONTACT_LOOKUP_DIALOG": {
+    "S_TITLE": "ENREGISTREMENTS DE CONTACT (affichage du tableau)",
+    "S_SEARCH": "Recherche de contacts...",
+    "S_LOOKUP_BUTTON": "Rechercher",
+    "S_SEARCH_RESULT": "Résultat de la recherche",
+    "S_DELETE": "Supprimer",
+    "S_ADD_TO_DNC": "Ajouter à la liste d’exclusion (LNNTE)",
+    "S_ADD_REMINDER": "Ajouter un rappel",
+    "S_ATTACH_TO": "Joindre à",
+    "S_ATTACH_TO_CURRENT_CALL": "Appel actuel",
+    "S_ATTACH_TO_CURRENT_VM": "Message vocal actuel",
+    "S_OPEN_CONTACT": "Ouvrir un contact",
+    "S_NONE": "aucun",
+    "S_FOUND": "Trouvé :",
+    "S_OPEN": "Ouvrir un contact",
+    "S_CONFIRM_DELETE": "Confirmer",
+    "S_DELETE_MESSAGE": "Êtes-vous sûr de vouloir <span class='confirmation-message-important'>supprimer définitivement {0} enregistrement(s) de contact?</span>",
+    "S_NONE_OF_THE_ABOVE": "Rien de ce qui précède"
+  },
+  "S_CONTACTS": {
+    "S_CONTACT_MANAGER_TITLE": "Gestionnaire de contacts",
+    "S_RECENT_INTERACTIONS_TITLE": "Interactions récentes",
+    "S_CONTACT_MANAGER_BODY_TEXT": "Enregistrements du gestionnaire de contacts.",
+    "S_CONTACT_MANAGER_CREATE_NEW": "Créer un contact",
+    "S_CONTACT_MANAGER_LOOKUP": "Consulter un contact",
+    "S_CONTACT_NO_CONTACT_RETURNED_IN_SAVE_RESPONSE_BODY": "Aucune donnée de contact n’a été retournée après avoir enregistré le contact. Solr peut être en panne.",
+    "S_CONTACT_NO_CONTACT_RETURNED_IN_SAVE_RESPONSE_TITLE": "Données de contact manquantes",
+    "S_NEW": "NOUVEAU",
+    "S_SEARCH": "Recherche de contacts...",
+    "S_FOUND": "Trouvé",
+    "S_BY_LAST_CONTACT": "Par dernier contact",
+    "S_SEARCH_RESULT": "Résultat de la recherche",
+    "S_DELETE": "Supprimer",
+    "S_MERGE": "Fusionner",
+    "S_SELECTED": "Sélectionné",
+    "S_DELETE_CONTACT_TITLE": "SUPPRIMER LE CONTACT",
+    "S_DELETE_CONTACT_MESSAGE": "Êtes-vous sûr de vouloir supprimer ce contact?<br><span class='confirmation-message-important'>{0}</span>",
+    "S_DELETE_CONTACTS_MESSAGE": "Êtes-vous sûr de vouloir supprimer les <span class='confirmation-message-important'>{0} contacts sélectionnés?</span>",
+    "S_RELEVANCE": "Pertinence",
+    "S_FIRSTNAME": "Prénom",
+    "S_LASTNAME": "Nom de famille",
+    "S_COMPANY": "Société",
+    "S_PRIMARY_NUMBER": "Téléphone principal",
+    "S_ALTERNATE_NUMBER_1": "Autre téléphone 1",
+    "S_ALTERNATE_NUMBER_2": "Autre téléphone 2",
+    "S_STREET": "Rue",
+    "S_CITY": "Ville",
+    "S_STATE": "État",
+    "S_ZIP": "Code postal",
+    "S_EMAIL": "Courriel",
+    "DISCARD_CHANGES": "REJETER LES MODIFICATIONS",
+    "DISCARD_CHANGES_MSG": "Les modifications à l’enregistrement du contact précédemment sélectionné seront perdues.  Êtes-vous sûr de vouloir sélectionner un nouveau contact?",
+    "DUPLICATE_CONTACT": "DUPLIQUER L’ENREGISTREMENT DE CONTACT",
+    "DUPLICATE_CONTACT_MSG": "Il existe un enregistrement de contact avec les mêmes valeurs dans le système.  Voulez-vous plutôt utiliser l’enregistrement de contact existant?",
+    "USE_EXISTING": "Utiliser l’enregistrement existant",
+    "DELETED_CONTACT": "ENREGISTREMENT DE CONTACT SUPPRIMÉ",
+    "DELETED_CONTACT_MSG": "L’enregistrement de contact précédemment sélectionné a été supprimé. Voulez-vous rejeter les modifications?",
+    "S_NO_NAME": "Aucun nom",
+    "S_CONTACT_MODIFIED_TITLE": "Enregistrement de contact modifié",
+    "S_CONTACT_MODIFIED_MESSAGE": "Veuillez enregistrer ou annuler la modification apportée à l’enregistrement du contact.",
+    "S_NOTES_MODIFIED_TITLE": "Remarque de contact modifiée",
+    "S_NOTES_MODIFIED_MESSAGE": "Veuillez enregistrer ou annuler la modification apportée aux remarques du contact.",
+    "S_SORT_BY": "Trier par",
+    "S_CUSTOM_FIELDS": "Champs personnalisés",
+    "S_SYSTEM_FIELDS": "Champs système",
+    "S_APPEND_BY": "Par "
+  },
+  "S_SCREEN_EMAIL": {
+    "S_TITLES": "Courriel"
+  },
+  "S_AGENT_HOME": {
+    "S_LOGGED_IN": "Connecté à :",
+    "S_DISCONNECTED": "Déconnecté",
+    "S_CONNECTED": "Connecté",
+    "S_HANDLED_INTERACTION": "Interactions traitées",
+    "S_SKILL_NOTIFICATION": "Mes compétences",
+    "S_DISPOSITIONS": "Dispositions",
+    "S_AHT": "Temps moyen de traitement",
+    "S_ME": "Moi",
+    "S_GROUP_AVG": "Moy. du groupe",
+    "S_TOP": "Sommet",
+    "S_NO_DISPOSITION_DATA": "Aucune donnée de disposition",
+    "S_SKILL_NOT_SELECTED": "(vous n’avez pas sélectionné cette compétence)",
+    "S_NO_DISPOSITIONS": "Aucune disposition",
+    "S_SKILL_CONFIRM_CHANGES": "Confirmer les changements",
+    "S_SKILL_CANCEL_CHANGES": "Annuler",
+    "S_CHANGE_SKILLS": "Changer..."
+  },
+  "S_INTERNAL_MESSAGE_SCREEN": {
+    "S_HEADER_IM_BUTTON_LABEL": "Nouveau MI",
+    "S_HEADER_BROADCAST_BUTTON_LABEL": "Nouvelle diffusion",
+    "S_HEADER_TITLE": "Messages",
+    "S_DETAIL_FILTER_LABEL": "Filtrer :",
+    "S_FILTER_ALL": "Tous les types",
+    "S_FILTER_BROADCAST": "Diffuser",
+    "S_FILTER_IM": "MI",
+    "S_TIME_TODAY": "Aujourd’hui",
+    "S_TIME_LAST_SEVEN_DAYS": "Les derniers 7 jours",
+    "S_TIME_LAST_THIRTY_DAYS": "Les derniers 30 jours",
+    "S_MESSAGE_TYPE_NEW": "NOUVEAU",
+    "S_MESSAGE_TYPE_READ": "LIRE",
+    "S_NO_MESSAGES": "Vous n’avez encore envoyé ni <br/>reçu aucun message."
+  },
+  "S_LOG_SCREEN": {
+    "S_TITLE": "Journaux de l’application",
+    "S_TITLE_NO_SESSION": "Journaux de l’application (dernière session d’utilisateur)",
+    "S_DOWNLOAD_BUTTON": "Télécharger les journaux",
+    "S_LOG_ISSUE": "Problème de journal"
+  },
+  "S_REMINDERS_SCREEN": {
+    "S_HEADER_REMINDER_BUTTON_LABEL": "Nouveau rappel",
+    "S_COMPLETED": "TERMINÉ",
+    "S_PENDING": "EN ATTENTE",
+    "S_HEADER_TITLE": "Rappels",
+    "S_NO_REMINDERS": "Vous n’avez pas encore configuré<br/>de rappels.",
+    "S_DESCRIPTION": "Description...",
+    "S_NO_CAMPAIGN": "aucune campagne",
+    "S_DELETE_TITLE": "SUPPRIMER LE RAPPEL",
+    "S_CONFIRM_DELETE_REMINDER": "Êtes-vous sûr de vouloir supprimer ce rappel?<br/><b>{0} - {1} - {2}</b>",
+    "S_MARK_PENDING": "Marqué en attente",
+    "S_MARK_COMPLETE": "Marqué terminé",
+    "S_MAKE_CALL": "Faire un appel",
+    "S_EDIT": "Modifier",
+    "S_MULTI_DELETE_CONFIRMATION": "Êtes-vous sûr de vouloir supprimer les <b>{0} rappels sélectionnés?</b>",
+    "S_SORT_BY_DUE_DATE_ASC": "Date d’échéance",
+    "S_SORT_BY_DUE_DATE_DESC": "Date d’échéance",
+    "S_SORT_BY_NAME_ASC": "Nom/Numéro",
+    "S_SORT_BY_NAME_DESC": "Nom/Numéro",
+    "S_SORT_BY_CAMPAIGN_ASC": "Campagne",
+    "S_SORT_BY_CAMPAIGN_DESC": "Campagne"
+  },
+  "S_SIDEBAR": {
+    "S_ITEMS": "Éléments : {0}"
+  },
+  "S_SOCIAL_SCREEN_DETAILS": {
+    "S_TAB_CONTEXT": "Contexte",
+    "S_TAB_HISTORY": "Historique",
+    "S_AGENT_SOCIAL": "Agent social",
+    "S_SOCIAL_INTERACTION_TIME_LABEL": "Durée",
+    "S_DISPOSITIONS": "Définir la disposition",
+    "S_TRANSFER": "Transférer...",
+    "S_ADD_NOTE": "Ajouter une remarque",
+    "S_TRANSFER_TO_AGENT": "Transférer à un agent",
+    "S_TRANSFER_TO_GROUP": "Transférer à un groupe",
+    "S_CONFERENCE": "Conférence téléphonique",
+    "S_TERMINATE": "Fin",
+    "S_COMPOSE_EMAIL": "Composer un courriel"
+  },
+  "S_SCREEN_SOCIAL_SIDEBAR": {
+    "S_TITLES": {
+      "S_EMPTY_TITLE": "Aucun message social",
+      "S_SCREEN_SOCIAL": "Écran Social"
+    },
+    "S_HEADER": {
+      "S_TITLE": "Social"
+    }
+  },
+  "S_SCREEN_EMAIL_SIDEBAR": {
+    "S_TITLES": {
+      "S_EMPTY_TITLE": "Aucun courriel",
+      "S_SCREEN_EMAIL": "Écran Courriel"
+    },
+    "S_HEADER": {
+      "S_TITLE": "Courriel"
+    }
+  },
+  "S_SCREEN_CHAT_SIDEBAR": {
+    "S_TITLES": {
+      "S_EMPTY_TITLE": "Aucun clavardage",
+      "S_SCREEN_CHAT": "Écran Clavardage"
+    },
+    "S_HEADER": {
+      "S_TITLE": "Clavardage"
+    }
+  },
+  "S_COMMON": {
+    "S_SEARCH": "Recherche",
+    "S_NEWEST": "Le plus récent",
+    "S_OLDEST": "Le plus ancien",
+    "S_QUEUED": "En file d’attente",
+    "S_ASSIGNED": "Attribué",
+    "S_WORKED_BY": "Traité par ",
+    "S_AVAILABLE": "Interaction disponible",
+    "S_TERMINATED": "Interaction terminée",
+    "S_CLOSE": "Interaction fermée",
+    "S_LOCK_BY": "Verrouillé par",
+    "S_ME": "moi",
+    "S_EXPIRED": "Minuterie expirée, interaction retournée en file d’attente",
+    "S_MAX_REACHED": "Vous avez atteint la limite des interactions actives. Pour en accepter plus, disposez de vos interactions actuelles.",
+    "S_CANNOT_UNLOCK": "Vous ne pouvez pas déverrouiller cet élément",
+    "S_LOCK": "Verrouiller",
+    "S_LOCK_BY_ANOTHER": "Verrouillé par un autre utilisateur",
+    "S_UNLOCK": "Déverrouiller",
+    "S_UNSENT_DRAFT_TITLE": "BROUILLON DE RÉPONSE NON ENVOYÉ",
+    "S_DISCARD_DRAFT": "Vous avez un brouillon de réponse non envoyé.  Voulez-vous l’envoyer ou supprimer le contenu?",
+    "S_SPAM": "(POURRIEL)",
+    "S_TEXT_CHANNEL_FILTER_WARNING": "Les filtres de voie texte sont activés"
+  },
+  "S_SCREEN_SOCIAL": {
+    "S_TITLES": "Social"
+  },
+  "S_AGENT_SKILL_SELECT": {
+    "S_TITLE": "SÉLECTIONNER VOS COMPÉTENCES",
+    "S_DESCRIPTION": "DESCRIPTION À FAIRE",
+    "S_ERROR_NOTHING_SELECTED": "Veuillez sélectionner une ou plusieurs compétences",
+    "S_ERROR_UNKNOWN": "Erreur inconnue",
+    "S_SELECT_ALL": "Sélectionner tout",
+    "S_DESELECT_ALL": "Désélectionner tout"
+  },
+  "S_ACTION_MENU": {
+    "S_COMPOSE_EMAIL": "Composer un courriel",
+    "S_COMPOSE_SOCIAL_POST": "Composer un message social",
+    "S_SEARCH": "Recherche",
+    "S_ADD_TO_DNC": "Ajouter un numéro à la liste d’exclusion (LNNTE)...",
+    "S_VOICE_QUALITY_TEST": "Test de connectivité vocale"
+  },
+  "S_AGENT_TOOLBAR": {
+    "S_DASHBOARD": "Mon tableau de bord",
+    "S_READY": "Prêt",
+    "S_NOT_READY": "Non prêt",
+    "S_INTERNAL_MESSAGE_POPOVER_TITLE": "MESSAGES"
+  },
+  "S_INTERNAL_MESSAGE": {
+    "S_POPOVER_TITLE": "MESSAGES",
+    "S_BROADCAST_BUTTON_LABEL": "Nouvelle diffusion",
+    "S_IM_BUTTON_LABEL": "Nouveau MI"
+  },
+  "S_REMINDERS_TODAY": {
+    "S_POPOVER_TITLE": "RAPPELS (aujourd’hui)",
+    "S_REMINDER_BUTTON_LABEL": "Nouveau rappel"
+  },
+  "S_AGENT_MENU": {
+    "S_SETTINGS": "Paramètres",
+    "S_LOGOUT": "Se déconnecter",
+    "S_ERROR_ACTIVE_CHAT": "Clavardage actif"
+  },
+  "S_HELP_MENU": {
+    "S_AGENT_GUIDE_PDF": "Guide de l’agent (PDF)",
+    "S_REQUEST_HELP": "Demander de l’aide",
+    "S_LOG_ISSUE": "Problème de journal",
+    "S_SHOW_LOG": "Montrer les journaux de l’application",
+    "S_ABOUT": "Au sujet de",
+    "S_CHANGE_PASSWORD": "Modifier le mot de passe",
+    "S_ECHO_CALL": "Appel écho",
+    "S_AGENT_GUIDE": "Guide de l’agent (PDF)",
+    "S_CUSTOMER_PORTAL": "Portail du client",
+    "S_TEST_CALL": "Appel de formation",
+    "S_ERROR_ECHO_CALL_NOT_READY_STATE": "Vous devez être en état Non prêt pour faire un appel écho."
+  },
+  "S_VOICE_DETAILS": {
+    "S_DISPOSITIONS": "Définir la disposition",
+    "S_CALL_PREVIEW": "Aperçu d’appel",
+    "S_CALL_QUEUE_CALLBACK": "Rappel automatique en file d’attente",
+    "S_CALL_ONCALL": "Appel en cours",
+    "S_CALL_ONHOLD": "Appel en cours (en attente)",
+    "S_CALL_RINGING": "Sonnerie en cours",
+    "S_CALL_ACW": "Travail après appel",
+    "S_CALL_FINISHED": "Fini",
+    "S_TAB_CONTEXT": "Contexte",
+    "S_TAB_HISTORY": "Historique",
+    "S_TAB_SCRIPT": "Script",
+    "S_TAB_CONNECTOR": "Connecteur",
+    "S_MUST_CONFIRM_TITLE": "Disposition",
+    "S_MUST_CONFIRM_QUERY": "Voulez-vous définir la disposition comme {0}?",
+    "S_CALL_END_CONFERENCE": "Mettre fin à la conférence téléphonique",
+    "S_CALL_CONFIRM_END_CONFERENCE": "Désirez-vous déconnecter tous les participants à la conférence téléphonique et disposer de l’appel comme {0}?",
+    "S_WORKSHEET_TITLE": "Disposition",
+    "S_WORKSHEET_REQUIRED": "Cette disposition ne peut être définie pour les appels sans les données d’une feuille de calcul; veuillez remplir la feuille de calcul ou sélectionner une autre disposition.",
+    "S_WORKSHEET_FORBIDDEN": "Cette disposition ne peut être définie pour les appels contenant les données de la feuille de calcul; veuillez remplir la feuille de calcul ou sélectionner une autre disposition.",
+    "S_MAKE_CALL": "Faire un appel",
+    "S_ADD_TO_DNC_WARNING": "Êtes-vous sûr de vouloir ajouter ce numéro à la liste d’exclusion et de disposer de l’appel comme « Exclure »",
+    "S_NEW_BLANK": "Nouvel enregistrement (vierge)",
+    "S_NEW_CURRENT": "Nouvel enregistrement (détails actuels)"
+  },
+  "S_VOICE_SIDEBAR": {
+    "S_TITLES": {
+      "S_EMPTY_TITLE": "Aucun appel actuel",
+      "S_CURRENT_CALL": "Appel actuel",
+      "S_PARKED_CALLS": "Appels mis en garde",
+      "S_PERSONAL_QUEUE": "File d’attente personnelle"
+    },
+    "S_TOOLTIPS": {
+      "S_PERSONAL_QUEUE_CALL_ON_ANOTHER_CALL_TOOLTIP": "Vous êtes sur un appel en cours.  Afin d’accepter un appel personnel, mettez l’appel actuel en garde ou mettez-y fin.",
+      "S_PERSONAL_QUEUE_CALL_WRONG_STATE_TOOLTIP": "Vous n’êtes pas dans le bon état pour accepter un appel personnel. Changer votre état à celui de Prêt (voix)."
+    },
+    "S_PREVIEW_CONTROLS": "Commandes avec prévisualisation",
+    "S_PREVIEW_ABANDONED_MESSAGE": "L’appel a été abandonné par l’administrateur.",
+    "S_PREVIEW_EXPIRED_MESSAGE": "Aperçu a été annulé parce qu’aucun des numéros de contact ne peut être composé dû à certaines restrictions.",
+    "S_NUMBER_ON_DNC": "Le numéro que vous avez saisi est sur la liste d’exclusion (LNNTE).  Veuillez sélectionner un autre numéro.",
+    "S_NUMBER_ALREADY_CALLED": "Ce numéro a été appelé le maximum de fois autorisé.  Veuillez sélectionner un autre numéro.",
+    "S_NUMBER_DISABLED_IN_PROFILE": "Ce numéro a été désactivé dans le profil de la campagne.  Veuillez sélectionner un autre numéro.",
+    "S_NUMBER_LIMITED_IN_PROFILE": "Ce numéro a été limité dans le profil de la campagne.  Veuillez sélectionner un autre numéro.",
+    "S_NUMBER_DND_RESTRICTION": "Ce numéro a une restriction de composition.  Veuillez sélectionner un autre numéro.",
+    "S_ACCEPT": "Accepter",
+    "S_REJECT": "Rejeter",
+    "S_CALL_TYPE": "Type d’appel :",
+    "S_CAMPAIGN": "Campagne :",
+    "S_PHONE_NUMBER": "Téléphone :",
+    "S_IN_QUEUE": "En file d’attente :",
+    "S_TIME_REMAINING": "Temps restant :",
+    "S_TO_DECLINE": "Pour refuser l’appel,",
+    "S_SET_DISPOSITION": "sélectionner une disposition.",
+    "S_CALL_CUSTOMER": "Appeler le client",
+    "S_CANT_UNPARK_WARNING": "Vous devez mettre fin ou mettre en garde l’appel actuel avant de récupérer un appel mis en garde.",
+    "S_SELECT_TITLE_PLACEHOLDER": "Sélectionner un numéro de téléphone...",
+    "S_INVALID_PHONE_NUMBER": "Numéro de téléphone non valide",
+    "S_MAKE_CALL_DIALOG": {
+      "S_TITLE": "Faire un appel",
+      "S_PHONE_INPUT_PLACEHOLDER": "Saisir le nom ou le numéro...",
+      "S_SUBMIT": "Faire un appel"
+    },
+    "S_PARKED_CALL_MENU": {
+      "S_TITLE": "APPEL MIS EN GARDE",
+      "S_RETRIEVE": "Récupérer l’appel",
+      "S_TRANSFER": "Transférer l’appel",
+      "S_ADD_CONFERENCE": "Ajouter à la conférence téléphonique",
+      "S_CONFIRM_ADD_CONFERENCE": "Ajouter l’appel <b>{0}</b> à la conférence téléphonique?"
+    }
+  },
+  "S_VOICEMAIL_DETAILS": {
+    "S_PREVIEW": "Aperçu du message vocal",
+    "S_VOICEMAIL": "Message vocal",
+    "S_TAB_CONTEXT": "Contexte",
+    "S_TAB_HISTORY": "Historique",
+    "S_FETCH_ERROR": "Impossible de récupérer les détails du contact",
+    "S_NO_CONTACTS": "Aucun contact"
+  },
+  "S_VOICEMAIL_SIDEBAR": {
+    "S_TITLES": {
+      "S_EMPTY_TITLE": "Aucun message vocal du groupe de compétences",
+      "S_SKILL_VOICEMAIL": "Message vocal du groupe de compétences",
+      "S_PERSONAL_VOICEMAIL": "Messages vocaux personnels"
+    },
+    "S_HEADER": {
+      "S_CAMPAIGN": "Campagne :",
+      "S_PHONE": "Téléphone :",
+      "S_CREATED": "Créé :",
+      "S_LENGTH": "Durée :",
+      "S_FILES": "fichiers",
+      "S_FILE": "fichier",
+      "S_NONE": "aucun"
+    },
+    "S_TIME_REMAINING": "Temps restant",
+    "S_ACCEPT": "Accepter",
+    "S_RETURN_CALL": "Retourner l’appel",
+    "S_DELETE_VOICEMAIL": "Effacer le message vocal",
+    "S_MENU": {
+      "S_TITLE": "Message vocal"
+    },
+    "S_DESCRIPTION": "Description...",
+    "S_TOOLBAR": {
+      "S_DELETE": "Supprimer",
+      "S_TRANSFER": "Transférer..."
+    },
+    "S_PROCESSED": "Message vocal traité",
+    "S_RECORDING_DOWNLOAD_SUCCESS": "Téléchargement réussi.",
+    "S_ERRORS": {
+      "S_RECORDING_DOWNLOAD_ERROR": "Impossible de télécharger l’enregistrement.",
+      "S_SAVE_COMMENT_ERROR": "Impossible d’enregistrer la description du message vocal."
+    }
+  },
+  "S_ASSISTANCE_DIALOG": {
+    "S_TITLE": "Assistance"
+  },
+  "S_ATTRIBUTE_DIALOG": {
+    "S_TITLE": "Attribut",
+    "S_NONE": "Aucun",
+    "S_UNKNOWN": "Inconnu"
+  },
+  "S_AUDIO_PLAYER": {
+    "S_NO_MEDIA": "Aucun support",
+    "S_MEDIA_LOAD_ERROR": "L’élément média audio n’a pu être chargé aux fins de lecture ou de téléchargement."
+  },
+  "S_HISTORY_SCREEN": {
+    "S_HEADER_TITLE": "Interaction(s)",
+    "S_FILTER": "Montrer ({0}) :",
+    "S_RESET": "Réinitialiser à Par défaut",
+    "S_ALL": "Tous",
+    "S_ALL_MEDIA_TYPES": "Tous les types",
+    "S_EXPAND_ALL": "Tout développer",
+    "S_REFRESH": "Actualiser",
+    "S_DIAL_ATTEMPTS": "Tentatives de composition",
+    "S_CALL": "Appel",
+    "S_VOICEMAIL": "Message vocal",
+    "S_NO_INTERACTIONS": "Aucun historique",
+    "S_TYPE": "Type",
+    "S_FROM": "De",
+    "S_TO": "À",
+    "S_WORKEDBY": "Traité par",
+    "S_CREATED": "Créé",
+    "S_DISPOSITION": "Disposition",
+    "S_START_TIME": "Heure de début",
+    "S_TALK_TIME": "Heure de la conversation",
+    "S_WRAP_TIME": "Heure de la récapitulation",
+    "S_CAMPAIGN": "Campagne",
+    "S_COMMENTS": "Commentaires",
+    "S_AGENT": "Agent",
+    "S_SENTIMENT": "Sentiment",
+    "S_TOPIC_THREAD": "Fil du sujet",
+    "S_TITLE": "Objet",
+    "S_PRIORITY": "Priorité",
+    "S_ATTRIBUTES": "Attributs",
+    "S_CLUSTER": "Groupe de services",
+    "S_CONVERSATION_TOPIC": "Conv. Sujet",
+    "S_TYPE_31": "Conférence d’un tiers",
+    "S_TYPE_32": "Consultation d’un tiers",
+    "S_TYPE_30": "Transfert d’un tiers",
+    "S_TYPE_12": "Appel automatique",
+    "S_TYPE_21": "Transférer",
+    "S_TYPE_14": "Entrant",
+    "S_TYPE_61": "Message vocal entrant",
+    "S_TYPE_50": "Interne",
+    "S_TYPE_51": "Compétence interne",
+    "S_TYPE_52": "RVI interne",
+    "S_TYPE_53": "Campagne interne",
+    "S_TYPE_60": "Message vocal interne",
+    "S_TYPE_10": "Manuel",
+    "S_TYPE_11": "Sortant",
+    "S_TYPE_62": "Message vocal sortant",
+    "S_TYPE_13": "Aperçu",
+    "S_TYPE_15": "Rappel automatique en file d’attente",
+    "S_TYPE_20": "Station",
+    "S_TYPE_40": "Tester manuel",
+    "S_TYPE_41": "Tester sortant",
+    "S_TYPE_42": "Tester appel automatique",
+    "S_TYPE_43": "Tester aperçu",
+    "S_TYPE_70": "Visuel",
+    "S_TYPE_1000": "Clavardage",
+    "S_TYPE_2000": "Courriel",
+    "S_TYPE_1": "Social",
+    "S_NONE": "Aucun",
+    "S_DELETED": "Supprimé",
+    "S_UNKNOWN": "Inconnu",
+    "S_PARKED": "Mis en garde",
+    "S_CURRENT_SESSION": "Session en cours",
+    "S_TODAY": "Aujourd’hui",
+    "S_YESTERDAY": "Hier",
+    "S_LAST_7_DAYS": "Les derniers 7 jours",
+    "S_LAST_WEEK": "Dernière semaine du calendrier",
+    "S_LAST_14_DAYS": "Les derniers 14 jours",
+    "S_LAST_30_DAYS": "Les derniers 30 jours",
+    "S_LAST_60_DAYS": "Les derniers 60 jours"
+  },
+  "S_AUTHOR_DETAIL": {
+    "S_HEADER": {
+      "S_TITLE": "PROFIL DE L’AUTEUR",
+      "S_MERGE": "Fusionner",
+      "S_EDIT": "Modifier"
+    },
+    "S_GENDER": "Sexe",
+    "S_PUBLIC_INFLUENCE": "Influence publique",
+    "S_CORP_INFLUENCE": "Influence d’affaires",
+    "S_SPAM_FACTOR": "Indice de pourriel"
+  },
+  "S_BROADCAST_DIALOG": {
+    "S_RECEIVE_TITLE": "DIFFUSÉ (reçu)",
+    "S_FROM_LABEL": "De : ",
+    "S_TO_LABEL": "À : ",
+    "S_IM": "MI",
+    "S_DISMISS": "Ignorer",
+    "S_SEND_TITLE": "NOUVELLE DIFFUSION",
+    "S_SEARCH_PLACEHOLDER": "Recherche...",
+    "S_INPUT_PLACEHOLDER": "Saisir votre message diffusé ici...",
+    "S_SEND": "Envoyer",
+    "S_AGENT": "Agent",
+    "S_SUPERVISOR": "Superviseur",
+    "S_ADMIN": "Admin.",
+    "S_SYSTEM": "Système"
+  },
+  "S_CALL_CONTROLS": {
+    "S_CALL_RECORD": "Enregistrer l’appel",
+    "S_CALL_RECORDING": "Arrêter l’enregistrement",
+    "S_CALL_HOLD": "Attente",
+    "S_CALL_UNHOLD": "Reprendre l’appel en attente",
+    "S_CALL_MUTE": "Désactiver le son (Muet)",
+    "S_CALL_UNMUTE": "Activer la voix",
+    "S_CALL_PARK": "Mettre en garde",
+    "S_CALL_PARKED": "Mis en garde",
+    "S_CALL_TRANSFER": "Transférer...",
+    "S_CALL_END_CALL": "Terminer l’appel",
+    "S_CALL_CONFERENCE": "Conférence téléphonique...",
+    "S_CALL_DIAL_PAD": "Clavier numérique",
+    "S_PLAY_AUDIO_FILE": "Lire le fichier audio...",
+    "S_CALL_LEAVE_CONFERENCE": "Quitter la conférence téléphonique",
+    "S_CALL_REMOVE_FROM_CONFERENCE_CALLER": "Êtes-vous sûr de vouloir supprimer <b>{0}</b> de la conférence téléphonique?",
+    "S_CALL_REMOVE_FROM_CONFERENCE_CALLER_COMPANY": "Êtes-vous sûr de vouloir supprimer <b>{0}</b> de <b>{1}</b> de la conférence téléphonique?",
+    "S_CALL_PARK_CALLER": "Retirer <b>{0}</b> de la conférence téléphonique et mettre en garde?",
+    "S_CALL_REMOVE_PARTICIPANT": "Retirer le participant",
+    "S_CALL_PARK_PARTICIPANT": "Mettre en garde le participant",
+    "S_CALL_END_CONFERENCE": "Mettre fin à la conférence téléphonique",
+    "S_CALL_CONFIRM_END_CONFERENCE": "Désirez-vous déconnecter tous les participants à la conférence téléphonique en mettant fin à l’appel?",
+    "S_DISPOSITIONS_HEADER": "Quitter et définir la disposition :",
+    "S_MAKE_HOST_HEADER": "Quitter et définir l’hôte :",
+    "S_REMOVE": "Supprimer"
+  },
+  "S_CALL_NOTIFICATION_DIALOG": {
+    "S_TITLE": "Interaction vocale",
+    "S_PREVIEW_TIME": "Durée de l’aperçu",
+    "S_INTERACTION_DETAILS": "Détails de l’interaction",
+    "S_YES": "Oui",
+    "S_NO": "Non",
+    "S_PREVIEW": "Aperçu",
+    "S_QUEUE_CALLBACK": "Rappel automatique en file d’attente",
+    "S_CALLBACK": "Rappel automatique",
+    "S_IN_QUEUE": "En file d’attente :",
+    "S_ISINTERNALRECEIVER": "Est un destinataire interne",
+    "S_ISTRANSFER": "Est un transfert",
+    "S_ISRECORDING": "Est en cours d’enregistrement",
+    "S_CALL_STATE": "État de l’appel",
+    "S_CONTACT_RECORDS": "Enregistrements de contacts",
+    "S_PRIORITY": "Priorité",
+    "S_TRANSFER_SKILL": "Transférer une compétence",
+    "S_DNIS": "SINC",
+    "S_OTHER_PARTY_NUMBER": "Autre numéro de la partie"
+  },
+  "S_CHANGE_PASSWORD_DIALOG": {
+    "S_TITLE": "Modifier le mot de passe",
+    "S_FLD_CURRENT_PASSWORD": "Mot de passe actuel",
+    "S_FLD_NEW_PASSWORD": "Nouveau mot de passe",
+    "S_FLD_CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "S_NO_LONGER_AUTHORIZED": "Vous n’êtes plus autorisé à modifier votre mot de passe.",
+    "S_MIN_PASSWORD_LENGTH": "Longueur minimum : {0} caractères.",
+    "S_MIN_PASSWORD_NUMBERS": "Doit inclure au moins {0} caractère numérique{1}.",
+    "S_MIN_PASSWORD_CAPITAL": "Doit inclure au moins {0} lettre majuscule{1}.",
+    "S_MIN_PASSWORD_SPECIAL": "Doit inclure au moins {0} caractère spécial{1}.",
+    "S_PASSWORD_DOES_NOT_MEET_REQUIREMENTS": "Le mot de passe actuel est incorrect ou votre nouveau mot de passe ne correspond pas aux exigences.",
+    "S_PASSWORDS_DO_NOT_MATCH": "Le champ du nouveau mot de passe n’est pas identique au champ Confirmer le mot de passe.",
+    "S_PASSWORD_CAN_NOT_BE_BLANK": "Le nouveau mot de passe ne peut être vierge.",
+    "S_PASSWORD_UNKNOWN": "Erreur de mode de passe inconnu."
+  },
+  "S_COMMENTS_DIALOG": {
+    "S_TITLE": "Commentaires"
+  },
+  "S_COMPOSE_EMAIL_DIALOG": {
+    "S_TITLE": "COMPOSER UN COURRIEL",
+    "S_ASSISTANCE": "Assistance",
+    "S_ATTACH": "Joindre",
+    "S_SEND": "Envoyer",
+    "S_PROFILE": "Profil",
+    "S_SELECT_PROFILE": "Sélectionner le profil",
+    "S_TO": "À",
+    "S_CC": "Cc",
+    "S_BCC": "Cci",
+    "S_SUBJECT": "Objet",
+    "S_REMOVE": "Supprimer",
+    "S_CANCEL": "Annuler",
+    "S_CANCELLING": "en cours d’annulation",
+    "S_OPEN": "ouvrir",
+    "S_DOWNLOAD_FILE": "Télécharger le fichier",
+    "S_FILE_REJECTED": "Le fichier a été rejeté par le serveur",
+    "S_ERROR_SENDING": "Erreur lors de l’envoi du courriel.",
+    "S_ERROR_NO_TO": "Veuillez spécifier au moins un destinataire.",
+    "S_ERROR_NO_CAMPAIGN": "Veuillez spécifier un profil",
+    "S_SAVE_AND_CLOSE": "Enregistrer et fermer",
+    "S_DISCARD": "Rejeter"
+  },
+  "S_CONTACT_DETAILS_DIALOG": {
+    "S_TITLE": "Détails du contact"
+  },
+  "S_CONTACT_FORM": {
+    "S_NONE": "Aucun",
+    "S_EXTENSION": "Poste :",
+    "S_AGENT_NAME": "Nom de l’agent :"
+  },
+  "S_CONTACT_HISTORY_PREVIEW": {
+    "S_CONTACT_HISTORY": "LES 5 DERNIÈRES INTERACTIONS",
+    "S_SEE_ALL": "En montrer plus",
+    "S_EMPTY": "Aucun historique du contact",
+    "S_LOAD_MESSAGE": "Charger l’historique",
+    "S_LOADING_MESSAGE": "Historique en cours de chargement",
+    "S_VM_DISPOSITION": "Message vocal traité",
+    "S_UNKNOWN_DISPOSITION": "Aucune disposition",
+    "S_ON": "Marche",
+    "S_OFF": "Arrêt",
+    "S_SELECTED": "Sélectionné",
+    "S_DIAL_ATTEMPTS": "Tentatives de composition",
+    "S_TYPE": "Type",
+    "S_CAMPAIGN": "Campagne",
+    "S_TIMEFRAME": "Intervalle de temps",
+    "S_ALL": "Tous",
+    "S_ANY": "Un",
+    "S_NONE": "Aucun"
+  },
+  "S_CONTACT_INTERACTION": {
+    "S_NOTES_PLACEHOLDER": "Notes d’interaction...",
+    "S_MULTIPLE_CONTACTS_MSG": "Il y a <b>{0} enregistrements de contact correspondant à ce numéro de téléphone</b>; sélectionner le contact approprié."
+  },
+  "S_DIRTY_REASON_DIALOG": {
+    "S_TITLE": "Travail non terminé",
+    "S_MESSAGE": "Les éléments de travail suivants sont incomplets :"
+  },
+  "S_DO_NOT_CALL_DIALOG": {
+    "S_TITLE": "AJOUTER À LA LISTE D’EXCLUSION (LNNTE)",
+    "S_NUMBER_TO_BE_ADDED": "Numéro à ajouter à la liste d’exclusion",
+    "S_CONFIRMED": "a été ajouté avec succès à la liste d’exclusion",
+    "S_WARNING": "Vous ne pouvez pas annuler votre action après avoir cliqué sur Confirmer.",
+    "S_INVALID_NUMBER": "Vous devez saisir un numéro"
+  },
+  "S_ECHO_CALL_DIALOG": {
+    "S_TITLE": "Appel écho",
+    "S_DESCRIPTION": "L’appel écho vous permet de tester la qualité audio de votre station.",
+    "S_INSTRUCTIONS": "Lorsqu’invité à le faire, enregistrer un message échantillon qui vous sera relu."
+  },
+  "S_INTERACTION_TEXT_CHAT_SCREEN": {
+    "S_CLUSTER": "Nom du groupe de services",
+    "S_TITLE": "Titre",
+    "S_ATTRIBUTES": "Attributs",
+    "S_DISPOSITION": "Disposition",
+    "S_TOPIC_THREAD": "Fil du sujet",
+    "S_RULES": "Règles et priorité",
+    "S_CONV_TOPIC": "Sujet de la conversation",
+    "S_NEXT_BEST_ACTION": "Prochaine meilleure action",
+    "S_REPLY": "Répondre",
+    "S_PICTURES": "Images",
+    "S_VIDEOS": "Vidéos",
+    "S_LINKS": "Liens",
+    "S_REPLIES": "Réponses",
+    "S_CONVERSATION": "Conversation",
+    "S_LIKES": "Préférences",
+    "S_ASSISTANCE": "Assistance",
+    "S_SEND": "Envoyer",
+    "S_SAVE_HISTORY": "Enregistrer l’historique",
+    "S_CANCEL": "Annuler",
+    "S_MESSAGE": "Message",
+    "S_PLACE_HOLDER": "Saisir ici pour envoyer un message...",
+    "S_TERMINATED_CLIENT": "Clavardage terminé par le client",
+    "S_TERMINATED_AGENT": "Clavardage terminé par l’agent",
+    "S_ENTERED_CONFERENCE": "Agent ajouté ",
+    "S_EXITED_CONFERENCE": "Agent sorti de la conférence téléphonique"
+  },
+  "S_INTERACTION_TEXT_COMMON_SCREEN": {
+    "S_CLUSTER": "Groupe de services",
+    "S_TITLE": "Titre",
+    "S_ATTRIBUTES": "Attributs",
+    "S_DISPOSITION": "Disposition",
+    "S_TOPIC_THREAD": "Fil du sujet",
+    "S_RULES": "Règles et priorité",
+    "S_CONV_TOPIC": "Sujet de la conversation",
+    "S_NEXT_BEST_ACTION": "Prochaine meilleure action",
+    "S_REPLY": "Répondre",
+    "S_PICTURES": "Images",
+    "S_VIDEOS": "Vidéos",
+    "S_LINKS": "Liens",
+    "S_REPLIES": "Réponses",
+    "S_CONVERSATION": "Conversation",
+    "S_LIKES": "Préférences",
+    "S_ASSISTANCE": "Assistance",
+    "S_SEND": "Envoyer",
+    "S_SAVE_HISTORY": "Enregistrer l’historique",
+    "S_CANCEL": "Annuler",
+    "S_MESSAGE": "Message",
+    "S_PLACE_HOLDER": "Écrire ici pour répondre...",
+    "S_NONE": "Aucun",
+    "S_HIGH_PRIORITY": "Élevé",
+    "S_MEDIUM_PRIORITY": "Moyen",
+    "S_LOW_PRIORITY": "Faible",
+    "S_EDIT": "Modifier",
+    "S_ADD": "Ajouter",
+    "S_SHOW_DETAILS": "Montrer les détails",
+    "S_HIDE_DETAILS": "Masquer les détails",
+    "S_SHOW_RECIPIENTS": "Montrer les destinataires ({0})",
+    "S_HIDE_RECIPIENTS": "Masquer les destinataires",
+    "S_RECEIVED": "Reçu",
+    "S_TO": "À :",
+    "S_CC": "Cc :",
+    "S_TOOLTIPS": {
+      "S_CLUSTERS": "Catégorie d’une interaction configurée par Five9 Connect ou par vous, p. ex., Soutien technique, Service, etc.",
+      "S_ATTRIBUTES": "Les paires nom-valeur qui décrivent les propriétés spécifiques d’une interaction ou du client d’une interaction, comme localisation géographique = Nord.",
+      "S_TOPIC": "Sujets qui vous permettent de regrouper les interactions reliées, p. ex., Facturation.",
+      "S_RULES": "Affiche les règles et la priorité (le cas échéant) qui ont été appliquées à une interaction.",
+      "S_CONVERSATION": "Sujets tendance qui sont présumés identiques à cette interaction selon la recherche de mot clé.  S’applique à Social uniquement."
+    }
+  },
+  "S_INTERACTION_TEXT_EMAIL_SCREEN": {
+    "S_CLUSTER": "Nom du groupe de services",
+    "S_ATTRIBUTES": "Attributs",
+    "S_DISPOSITION": "Disposition",
+    "S_TOPIC_THREAD": "Fil du sujet",
+    "S_RULES": "Règles et priorité",
+    "S_CONV_TOPIC": "Sujet de la conversation",
+    "S_NEXT_BEST_ACTION": "Prochaine meilleure action",
+    "S_REPLY": "Répondre",
+    "S_PICTURES": "Images",
+    "S_VIDEOS": "Vidéos",
+    "S_LINKS": "Liens",
+    "S_REPLIES": "Réponses",
+    "S_CONVERSATION": "Conversation",
+    "S_LIKES": "Préférences",
+    "S_ASSISTANCE": "Assistance",
+    "S_ATTACH": "Joindre",
+    "S_SEND": "Envoyer",
+    "S_SAVE_DRAFT": "Enregistrer le brouillon",
+    "S_SAVE_HISTORY": "Enregistrer l’historique",
+    "S_CANCEL": "Annuler",
+    "S_RESET": "Réinitialiser",
+    "S_MESSAGE": "Message",
+    "S_PLACE_HOLDER": "Écrire ici pour répondre...",
+    "S_RESPOND": "Répondre",
+    "S_RESPOND_TO_ALL": "Répondre à tous",
+    "S_OR": "ou",
+    "S_FORWARD": "Transférer",
+    "S_TO": "À :",
+    "S_CC": "Cc :",
+    "S_BCC": "Cci :",
+    "S_RE": "Re :",
+    "S_REMOVE": "Supprimer",
+    "S_CANCELLING": "Annulation en cours",
+    "S_OPEN": "ouvrir",
+    "S_DOWNLOAD_FILE": "Télécharger le fichier",
+    "S_FILE_REJECTED": "Type de fichier non pris en charge : Le fichier a été rejeté par le serveur",
+    "S_FILE_REJECTED_FULL": "Type de fichier non pris en charge : Le fichier a été rejeté par le serveur. Les types de fichier suivants sont pris en charge :  AVI,GIF,JPG,JPEG,PDF,TIF,TIFF,MPG,MPEG,MP3,WAV,TXT,PNG,XLS,DOC,DOCX,ZIP,XLSX",
+    "S_ERROR_SENDING": "Erreur lors de l’envoi du courriel.",
+    "S_TITLE": "Courriel",
+    "S_INVALID_SENDER_TITLE": "Courriel inconnu",
+    "S_INVALID_SENDER_MESSAGE": "Impossible d’envoyer le courriel.  Veuillez attribuer un courriel valide.",
+    "S_SENT": "Envoyé",
+    "S_PROFILE": "Profil",
+    "S_SUBJECT": "Objet",
+    "S_SHOW_RECIPIENTS": "Afficher les destinataires",
+    "S_HIDE_RECIPIENTS": "Masquer les destinataires",
+    "S_DRAFT_ATTACHMENT_WARN_TITLE": "Pièces jointes non enregistrées dans les brouillons",
+    "S_DRAFT_ATTACHMENT_WARN": "Les pièces jointes ne sont pas enregistrées dans les brouillons.<br/> Si vous quittez cette page,vous devez joindre à nouveau tous les fichiers."
+  },
+  "S_INTERACTION_SOCIAL_SCREEN": {
+    "S_CLUSTER": "Nom du groupe de services",
+    "S_TITLE": "Social",
+    "S_ATTRIBUTES": "Attributs",
+    "S_DISPOSITION": "Disposition",
+    "S_TOPIC_THREAD": "Fil du sujet",
+    "S_RULES": "Règles et priorité",
+    "S_CONV_TOPIC": "Sujet de la conversation",
+    "S_NEXT_BEST_ACTION": "Prochaine meilleure action",
+    "S_REPLY": "Répondre",
+    "S_PICTURES": "Images",
+    "S_VIDEOS": "Vidéos",
+    "S_LINKS": "Liens",
+    "S_REPLIES": "Réponses",
+    "S_CONVERSATION": "Conversation",
+    "S_LIKES": "Préférences",
+    "S_ASSISTANCE": "Assistance",
+    "S_SEND": "Envoyer",
+    "S_SAVE_HISTORY": "Enregistrer l’historique",
+    "S_CANCEL": "Annuler",
+    "S_MESSAGE": "Message",
+    "S_PLACE_HOLDER": "Écrire ici pour répondre...",
+    "S_Likes": "Préférences",
+    "S_APPLICATION": "Application",
+    "S_SENDING_TIMEOUT": "L’accusé de réception du serveur n’a pas été reçu à temps",
+    "S_ERROR_SENDING": "Erreur survenue en répondant à une interaction.",
+    "S_UNKNOWN": "Campagne inconnue"
+  },
+  "S_INTERNAL_CHAT": {
+    "S_SEARCH_PLACEHOLDER": "Recherche...",
+    "S_INPUT_TEXT_PLACEHOLDER": "Saisir ici...",
+    "S_CANCEL": "Annuler",
+    "S_CONFIRM": "Confirmer",
+    "S_ADDPEOPLE": "Ajouter des personnes...",
+    "S_TOO_MANY_CHATS": "Il ne peut y avoir qu’un maximum de trois dialogues de clavardage ouverts",
+    "S_NEW_CHAT_CANNOT_BE_OPENED": "Le clavardage entrant ne peut pas être ouvert, car il y a déjà trois dialogues de clavardage ouverts",
+    "S_AGENT_ADDED": " ajouté",
+    "S_AGENT_REMOVED": " supprimé",
+    "S_LAST_USER_LEFT": "Le dernier utilisateur a quitté la conversation",
+    "S_CONVERSATION_CLOSED": "Conversation fermée",
+    "S_START_CHAT": "Commencer le clavardage",
+    "S_CLOSE_CHAT_CANCEL": "Annuler",
+    "S_CLOSE_CHAT_END": "Fin",
+    "S_CLOSE_CHAT_LEAVE": "Quitter",
+    "S_CONF_CHAT_END_Q": "Êtes-vous sûr de vouloir mettre fin à cette conversation pour tous les participants?",
+    "S_CONF_CHAT_LEAVE_Q": "Êtes-vous sûr de vouloir quitter cette conversation?",
+    "S_AGENT": "Agent",
+    "S_SUPERVISOR": "Superviseur",
+    "S_ADMIN": "Admin.",
+    "S_CLOSE_TOOLTIP": "Fermer",
+    "S_END_TOOLTIP": "Mettre fin à la conversation",
+    "S_LEAVE_TOOLTIP": "Quitter la conversation ",
+    "S_ADD_PEOPLE_TOOLTIP": "Ajouter des personnesâ€¦",
+    "S_MINIMIZE_TOOLTIP": "Minimiser",
+    "S_MAXIMIZE_TOOLTIP": "Maximiser"
+  },
+  "S_DATAFILTER": {
+    "S_ADD": "Ajouter un filtre",
+    "S_APPLY": "Appliquer",
+    "S_AND": "ET",
+    "S_OR": "OU",
+    "S_CLEAR": "Effacer"
+  },
+  "S_CALL_DETAILS": {
+    "S_ELAPSE_TIME": "Temps d’appel écoulé "
+  },
+  "S_CATEGORYFILTER": {
+    "S_NO_SELECTION_TITLE": "Aucune catégorie de filtres sélectionnée",
+    "S_NO_SELECTION_MESSAGE": "Veuillez sélectionner une catégorie de filtres.",
+    "S_SELECT": "Sélectionner"
+  },
+  "S_WARNINGS": {
+    "S_NO_DISPOSITIONS": "Ce locataire est mal configuré et ne contient pas de dispositions valides.",
+    "S_BEFORE_UNLOAD_DEFAULT": "Vous êtes actuellement connecté.",
+    "S_BEFORE_UNLOAD_ON_CALL": "Vous êtes actuellement sur un appel.",
+    "S_BEFORE_UNLOAD_ON_CHAT": "Vous êtes actuellement sur un clavardage.",
+    "S_FORCE_LOGOUT": "Ce compte va être déconnecté.  Raison : {0}",
+    "S_FORCE_LOGOUT_TITLE": "Conflit de la station",
+    "S_FORCE_LOGOUT_MESSAGE": "Échec de la création de station – une autre session existe.  Forcer la déconnexion de l’autre session?",
+    "S_VCC_IS_UNAVAILABLE_TITLE": "Message du système Five9",
+    "S_VCC_IS_UNAVAILABLE": "Le système est actuellement indisponible. Veuillez réessayer plus tard.",
+    "S_AGENT_STATION_STATE_CANNOT_BE_RESTORED": "L’état de la station de l’agent ne peut pas être restauré. Veuillez essayer de redémarrer la station plus tard.",
+    "S_CANNOT_RESTART_STATION_IN_READY_STATE": "Vous devez être en état Non prêt pour redémarrer la station.",
+    "S_CANNOT_RESTART_STATION_IN_READY_FOR_CALL": "Vous ne devez pas être en état Prêt pour la voix ou sur un appel pour redémarrer la station.",
+    "S_MUST_BE_READY_FOR_VOICE": "Vous devez définir votre état à Prêt pour la voix pour recevoir des appels.",
+    "S_STATION_NOT_CONNECTED": "Ne peut pas faire d’appel écho parce que votre station n’est pas connectée. Veuillez redémarrer la station et réessayer.",
+    "S_STATION_NOT_CONNECTED_FOR_TEST_CALL": "Impossible de faire d’appel de formation parce que votre station n’est pas connectée. Veuillez redémarrer la station et réessayer.",
+    "S_STATION_BUSY": "La station est actuellement occupée; veuillez raccrocher ou démarrer la station et réessayer.",
+    "S_SKILL_ADDED_TO_AGENT": "La compétence {0} vous a été attribuée.<br/>Vous devez vous reconnecter si vous désirez travailler avec cette compétence.",
+    "S_PASSWORD_EXPIRATION_ZERO_DAY": "Votre mot de passe expirera aujourd’hui.",
+    "S_PASSWORD_EXPIRATION_ONE_DAY": "Votre mot de passe expirera dans 1 jour.",
+    "S_PASSWORD_EXPIRATION": "Votre mot de passe expirera dans {0} jours.",
+    "S_CANNOT_DO_TEST_CALL": "Cette action n’a pas pu être effectuée pour les appels de formation.",
+    "S_CHANNELS_UPDATED": "Les canaux d’interaction qui vous ont été attribués ont été mis à jour.<br/>Vous devez vous reconnecter si vous désirez travailler avec eux.",
+    "S_INVALID_ZONE_ERROR": "Fuseau horaire non valide : {0}",
+    "S_EMBEDDED_CONNECTOR_WARNING": "Avertissement de connecteur intégré",
+    "S_STATION_RESTART_REQUIRED": "Veuillez vous définir à Non prêt puis redémarrer votre téléphone logiciel pour continuer à prendre et à recevoir des appels.",
+    "S_NO_ACTIVE_DEVICE": "Le téléphone logiciel ne peut pas se connecter à cause d’un problème de casque, de haut-parleur, ou de microphone qui ne fonctionne pas correctement. Veuillez vérifier les paramètres de votre dispositif d’entrée.",
+    "S_MIXED_CONTENT_EMBEDDED_CONNECTOR": "Le connecteur déclenché tente de se connecter à une URL non sécurisée. Le connecteur doit ouvrir une nouvelle fenêtre ou un nouvel onglet de navigation.",
+    "S_NO_PRIMARY_EMAIL": "Le domaine n’est pas configuré correctement.  Aucun champ de contact de courriel principal n’a été attribué.",
+    "S_CONFIGURATION_ERROR_TITLE": "Avertissement de configuration",
+    "S_INTERACTIONS_UNAVAILABLE": "Les interactions suivantes sont indisponibles : ",
+    "S_NO_NUMBER_FIELD": "L’enregistrement du contact doit contenir un numéro de téléphone valide."
+  },
+  "S_ERRORS": {
+    "S_API": "Erreur reçue lors de l’exécution d’une action API.",
+    "S_CALL_API": "Erreur reçue lors de l’exécution d’une action d’appel.",
+    "S_CONFERENCE_BUSY_TITLE": "Conférence téléphonique occupée",
+    "S_CONFERENCE_BUSY": "Vous ne pouvez pas ajouter un nouveau participant pendant qu’un autre est appelé.",
+    "S_VM_TRANSFER_ERROR": "Une erreur est survenue lors du transfert du message vocal",
+    "S_API_FORMAT": "L’API a incorrectement formaté les données {0}.",
+    "S_GENERIC_LOAD_WARNING": "Impossible de réussir à charger les ressources {0}",
+    "S_PERMISSION": "L’utilisateur n’est pas autorisé à effectuer cette action",
+    "S_NO_DISPOSITIONS": "Aucune disposition valide",
+    "S_UNKNOWN_SAVE_ERROR": "Erreur inconnue lors de l’enregistrement",
+    "S_UNEXPECTED_ERROR": "Une erreur inattendue est survenue [{0}]",
+    "S_SESSION_STOP": "Erreur reçue lors de l’arrêt de la session. Déconnexion impossible.",
+    "S_SESSION_SAVE": "Erreur reçue lors de l’enregistrement de la session. Déconnexion impossible.",
+    "S_SESSION_START": "Erreur reçue lors du démarrage de la session. Connexion impossible.",
+    "S_NETWORK_LOST_TITLE": "Connexion au réseau perdue",
+    "S_NETWORK_LOST": "Connexion au réseau perdue.  Veuillez vérifier votre connexion réseau et réessayer plus tard.",
+    "S_RESOURCE_FETCH_ERROR": "Impossible de charger une ou plusieurs ressources.",
+    "S_INVALID_COUNTRY_CODE": "Le numéro ne peut pas être composé – indicatif de pays non valide",
+    "S_SOFTPHONE_DOWNLOAD_FAILED": "Il y a eu un problème lors du téléchargement du téléphone logiciel.  Veuillez actualiser cette page dans votre navigateur pour poursuivre la mise à jour.",
+    "S_NO_PRIMARY_EMAIL": "Le domaine n’est pas configuré correctement.  Aucun champ de contact de courriel principal n’a été attribué.",
+    "S_CONFIGURATION_ERROR_TITLE": "Erreur de configuration",
+    "S_NO_CONTACT": "Un contact est obligatoire.  Veuillez créer un nouveau contact ou sélectionner un contact existant de \"Contact Lookup\" menu."
+  },
+  "S_ERRORS_STATION_RESTART": {
+    "S_ERROR_RESTART_STATION_FAILED": "Échec de connexion de la station.  Réessayer.",
+    "S_ERROR_REGISTRATION_FAILED": "Échec de l’enregistrement du téléphone logiciel sur le serveur proxy",
+    "S_ERROR_STATION_RESTARTING": "La station redémarre",
+    "S_ERROR_STATION_BUSY": "La station est occupée",
+    "S_ERROR_NO_AVAILABLE_PORTS": "Vous n’avez aucun port disponible sur votre machine",
+    "S_ERROR_DOWNLOAD_FAILED": "Échec du téléchargement du paquetage de mise à jour sur le téléphone logiciel",
+    "S_ERROR_ICA_CONNECTION_NOT_FOUND": "Impossible de trouver un homologue VDI. Veuillez joindre votre administrateur.",
+    "S_ERROR_CONNECTING_TO_VDI_CLIENT_FAILED": "Impossible de se connecter au client VDI. Veuillez démarrer le client VDI ou joindre votre administrateur",
+    "S_ERROR_UNKNOWN": "Erreur inconnue"
+  },
+  "S_ERRORS_AUTH": {
+    "S_NOT_AUTHORIZED": "Vous n’êtes pas autorisé à utiliser l’ordinateur d’agent Five9 Plus. Veuillez joindre votre administrateur système.",
+    "S_CREDENTIALS": "Le nom d’utilisateur ou le mot de passe que vous avez saisi est incorrect.",
+    "S_CREDENTIALS_LAST_TRY": "Le nom d’utilisateur ou le mot de passe que vous avez saisi est incorrect.  **Dernier essai**",
+    "S_DOWN": "Les services à distance ne sont pas disponibles actuellement.  Veuillez réessayer plus tard.",
+    "S_CONTACT": "Impossible de joindre les services à distance.  Veuillez vérifier votre connexion réseau et réessayer plus tard.",
+    "S_UNKNOWN": "Erreur inconnue en joignant les services à distance.  Veuillez réessayer plus tard.",
+    "S_UNAUTHORIZED": "Impossible de terminer l’authentification.  Veuillez réessayer plus tard.",
+    "S_LOGOUT_ERROR_ON_ACTIVE_CALL": "Impossible de déconnecter pendant un appel actif.",
+    "S_LOGOUT_ERROR_ON_ACTIVE_CHAT": "Veuillez terminer ou transférer tous les clavardages actifs avant de vous déconnecter.",
+    "S_NO_SESSION_ID": "La session ne peut pas être authentifiée.  Impossible de récupérer un ID de session depuis cet ordinateur.",
+    "S_FAIL_SESSION_ID": "La session ne peut pas être authentifiée.  Impossible de récupérer un ID de session depuis les services à distance.",
+    "S_SOCKET_AUTH_TITLE": "Session expirée",
+    "S_SOCKET_AUTH": "La session ne peut pas être authentifiée (session expirée ou connectée depuis un autre emplacement).",
+    "S_UNAUTHORIZED_APP": "L’utilisateur n’est pas autorisé à utiliser l’application {0}.",
+    "S_NO_ROLES": "L’utilisateur est mal configuré et n’a pas de rôles valides.",
+    "S_AUTH_METADATA": "Échec du format des métadonnées.  Veuillez réessayer plus tard.",
+    "S_SOCKET_FORCE_TITLE": "Déconnexion forcée",
+    "S_FORCE_LOGOUT": "Vous avez été déconnecté de force",
+    "S_SOCKET_FORCE": "La session a été terminée de force (connecté depuis un autre emplacement).",
+    "S_PASSWORD_NEEDS_CHANGE": "Vous devez modifier votre mot de passe et définir votre question de sécurité.<br/>Veuillez aller à {0}.",
+    "S_SECURITY_QUESTION_NOT_SET": "Vous devez définir votre question de sécurité.<br/>Veuillez aller à {0}.",
+    "S_USER_ACCOUNT_NOT_ACTIVE": "Échec de la connexion – votre compte n’est plus actif."
+  },
+  "S_ERRORS_DNC": {
+    "S_DIAL_ANYWAY": "Le numéro composé est sur la liste d’exclusion (LNNTE).<br/>Composer quand même?",
+    "S_NOT_ALLOWED": "Le numéro composé est sur la liste d’exclusion (LNNTE).<br/>Vous n’avez pas l’autorisation de composer ce numéro."
+  },
+  "S_ERRORS_DIALING_RULES": {
+    "S_NOT_ALLOWED": "Les appels à ce numéro/contact ne sont pas autorisés en ce moment.",
+    "S_NOT_ALLOWED_WITH_TIME": "Les appels à ce numéro/contact ne sont pas autorisés en ce moment, mais le seront à {0}"
+  },
+  "S_ERRORS_DIAL": {
+    "S_DIAL_ERR_HARDWARE_TIMEOUT": "Délai d’expiration du matériel lors de la composition.",
+    "S_DIAL_ERR_NO_ANSWER": "Pas de réponse à {0}.",
+    "S_DIAL_ERR_UNKNOWN_ERROR": "Erreur inconnue lors de la composition.",
+    "S_DIAL_ERR_RESOURCE_UNAVAILABLE": "{0} n’est pas disponible.",
+    "S_DIAL_ERR_BUSY": "{0} était occupé.",
+    "S_DIAL_ERR_COULD_NOT_GET_DIAL_TONE": "Impossible d’obtenir la tonalité pour composer {0}.",
+    "S_DIAL_ERR_HANGUP": "{0} semble raccroché.",
+    "S_DIAL_ERR_APPEAR_DISCONNECT": "{0} semble être déconnecté."
+  },
+  "S_ERRORS_MAKE_CALL": {
+    "S_ALREADY_ON_CALL": "Vous êtes sur un appel actif ou en aperçu.  Veuillez le traiter avant de faire un appel.",
+    "S_FORBIDDEN": "Les appels manuels ne peuvent être effectués actuellement.  Veuillez réessayer plus tard.",
+    "S_INVALID_PHONE_TITLE": "Numéro de téléphone non valide",
+    "S_INVALID_PHONE": "Numéro externe {0} non valide",
+    "S_INVALID_AGENT_TITLE": "Agent non valide",
+    "S_INVALID_AGENT": "Agent {0} non valide",
+    "S_INVALID_SKILL_TITLE": "Compétence non valide",
+    "S_INVALID_SKILL": "Compétence {0} non valide",
+    "S_NO_STATION": "Vous devez sélectionner une station pour faire des appels."
+  },
+  "S_API_ERRORS": {
+    "AgentNotTransferable": "{0} n’a pas la permission de recevoir des appels transférés.",
+    "PstnBillRateNotFound": "Vous n’avez pas l’autorisation de faire des appels vers ce pays"
+  },
+  "S_ERRORPAGE": {
+    "S_BRAND": "Liberté",
+    "S_TITLE": "Erreur d’application",
+    "S_TITLE_UNAUTHORIZED": "Accès interdit",
+    "S_RETURN_TO_LOGIN": "Retourner à la page de connexion."
+  },
+  "S_LOADING_MSG": {
+    "S_RESOURCES": "Chargement des ressources",
+    "S_AGENT_PREP": "Préparation par un agent.",
+    "S_AGENT_START_TEXT_SESSION": "Démarrer une session de la SCC (console centrale de commande)...",
+    "S_CONTACTS": "Chargement des contacts...",
+    "S_ECHO_CALL": "Appel écho...",
+    "S_INITIALIZING_APP": "Initialisation de l’application"
+  },
+  "S_FORMS": {
+    "S_SAVE_SUCCESSFUL": "Enregistrement réussi"
+  },
+  "S_LOGIN": {
+    "S_TITLE": "Ordinateur d’agent Plus",
+    "S_USERNAME": "Nom d’utilisateur",
+    "S_PASSWORD": "Mot de passe",
+    "S_EMAIL": "Courriel",
+    "S_FORGOT": "Oublié",
+    "S_FORGOT_OR": "ou",
+    "S_LOGIN_BUTTON": "Se connecter",
+    "S_FORCE_LOGIN_BUTTON": "Forcer la connexion",
+    "S_LOGIN_WAIT": "Veuillez attendre pendant que la connexion est en cours",
+    "S_LOGIN_FAIL": "Échec de la connexion – une autre session existe.  Forcer la déconnexion de l’autre session?",
+    "S_LOGIN_FAIL_ACTIVE_CALL": "Impossible de forcer la connexion.  L’utilisateur a un appel actif.  Voulez-vous vous rattacher à la session existante?",
+    "S_USERNAME_REMINDER_LABEL": "Rappel du nom d’utilisateur",
+    "S_USERNAME_REMINDER_TEXT": "Utiliser le courriel associé au compte pour recevoir votre nom d’utilisateur",
+    "S_PASSWORD_REMINDER_LABEL": "Réinitialisation du mot de passe",
+    "S_PASSWORD_REMINDER_TEXT": "Utiliser votre nom d’utilisateur pour réinitialiser votre mot de passe",
+    "S_PASSWORD_REMINDER_FINAL_LABEL": "Réinitialisation du mot de passe réussie",
+    "S_PASSWORD_REMINDER_FINAL_TEXT": "Nous venons de vous envoyer un mot de passe temporaire par courriel; veuillez le modifier lors de votre prochaine connexion",
+    "S_USERNAME_REMINDER_FINAL_LABEL": "Courriel envoyé",
+    "S_USERNAME_REMINDER_FINAL_TEXT": "Nous venons de vous envoyer votre information de connexion par courriel",
+    "S_BACK_TEXT": "Retour à la connexion",
+    "S_PORTAL": "Portail Five9",
+    "S_MODAL_TITLE": "Session existante",
+    "S_OK_FORCE": "Forcer",
+    "S_OK_ATTACH": "Joindre"
+  },
+  "S_AGENT_TOOLS": {
+    "S_HOME": "Accueil",
+    "S_VOICE": "Appel",
+    "S_VOICEMAIL": "Message vocal",
+    "S_CHAT": "Clavardage",
+    "S_EMAIL": "Courriel",
+    "S_SOCIAL": "Social",
+    "S_MESSAGES": "Messages",
+    "S_REMINDERS": "Rappels",
+    "S_NOTES": "Remarques",
+    "S_CRM": "Contacts",
+    "S_HISTORY": "Historique",
+    "S_MY_ACTIVITY": "Mon activité"
+  },
+  "S_CAMPAIGN": {
+    "S_NONE": "[Aucun]",
+    "S_NOT_FOUND": "[Non trouvé]"
+  },
+  "S_CAMPAIGNS": {
+    "S_INBOUND": "Entrant",
+    "S_OUTBOUND": "Sortant",
+    "S_ALL": "Toutes les campagnes",
+    "S_ANY": "N’importe quelle campagne",
+    "S_NOT_RUNNING": "Pas en cours d’exécution",
+    "S_ERROR_NOT_RUNNING_TITLE": "Campagne pas en cours d’exécution",
+    "S_ERROR_NOT_RUNNING": "La campagne {0} n’est pas en cours d’exécution.<br /><br />Elle ne peut pas être composée avant son lancement.",
+    "S_ERROR_NOT_RUNNING_NO_CAMPAIGN": "Cette campagne ne peut pas être composée avant son lancement."
+  },
+  "S_NOTIFICATIONS": {
+    "S_CALL_TRANSFERRED": "Appel transféré",
+    "S_CALL_TRANSFERFAILED_PARKED": "Échec du transfert.  Appel mis en garde.",
+    "S_CALL_HANGUP": "Appelant déconnecté",
+    "S_CALL_UNAVAILABLE_PARKED": "L’appel transféré n’a pas été accepté.<br/>Appel remis en garde.",
+    "S_PARTICIPANT_PARKED": "Mise en garde réussie du participant.",
+    "S_PARTICIPANT_REMOVED": "Participant retiré de la conférence téléphonique.",
+    "S_NEW_PERSONAL_QUEUE_CALL": "Appel en file d’attente personnelle",
+    "S_NEW_SKILL_VOICEMAIL": "Nouveau message vocal du groupe de compétences",
+    "S_NEW_PERSONAL_VOICEMAIL": "Nouveau message vocal personnel",
+    "S_PARKED_CALLER_DISCONNECTED": "Appelant mis en garde {0} déconnecté",
+    "S_FORCIBLY_LOGGED_OUT": "Déconnexion forcée",
+    "S_CONSULTANT_DISCONNECTED": "Consultant déconnecté",
+    "S_CONFERENCE_PARTICIPANT_ADDED_TITLE": "Participant ajouté",
+    "S_CONFERENCE_PARTICIPANT_ADDED": "{0} a été ajouté à la conférence téléphonique.",
+    "S_CONFERENCE_PARTICIPANT_DISCONNECTED": "Participant <b>{0}</b> à la conférence déconnecté.",
+    "S_CONFERENCE_PARTICIPANT_REMOVED_TITLE": "Participant retiré",
+    "S_CONFERENCE_PARTICIPANT_REMOVED": "{0} a été retiré de la conférence téléphonique.",
+    "S_VM_TRANSFER_FAILED": "Un message vocal ne peut être transféré qu’à un agent ou à un groupe de compétences.",
+    "S_VM_TRANSFERRED": "Message vocal transféré.",
+    "S_VMS_TRANSFERRED": "Messages vocaux {0} transférés.",
+    "S_SKILL_VM_TRANSFER_FAILED": "Un message vocal de compétence ne peut être transféré qu’à un agent ou à un groupe de compétences.",
+    "S_MAINTENANCE_TITLE": "Mode Maintenance/GR sans heurts",
+    "S_MAINTENANCE": "Le système Five9 est actuellement indisponible pour cause de maintenance. Il sera disponible bientôt. Veuillez consulter le portail d’assistance à la clientèle ou joindre votre administrateur Five9 si vous avez des questions.",
+    "S_PRESENCE_BY_SUPERVISOR_MESSAGE": "Vous avez été commuté à l’état {0}.",
+    "S_NO_CONTACT_AVAILABLE": "Aucune information de contact disponible",
+    "S_NEW_CALL_TITLE": "Nouvel appel ({0})",
+    "S_NEW_CALL_MSG": "{0} ({1})",
+    "S_REMINDER_TITLE": "Rappel dû",
+    "S_VM_PERSONAL_TITLE": "Nouveau message vocal (personnel)",
+    "S_VM_SKILL_TITLE": "Nouveau message vocal (compétence)",
+    "S_VM_MSG": "{0} ({1})",
+    "S_INTERNAL_MSG_TITLE": "Nouveau message interne",
+    "S_BROADCAST_MSG_TITLE": "Nouveau message diffusé",
+    "S_SCC_NEW_CHAT": "Nouvelle interaction de clavardage",
+    "S_SCC_NEW_EMAIL": "Nouvelle interaction de courriel",
+    "S_SCC_NEW_SOCIAL": "Nouvelle interaction sociale",
+    "S_SCC_CHAT_RESPONSE": "Réponse de clavardage"
+  },
+  "S_AFTER_CALL_WORK": {
+    "S_WRAPUP_EXPIRED": "La durée de récapitulation ({0}) est expirée.",
+    "S_DISPOSITION_AUTOSET": "La disposition a été définie automatiquement {0}."
+  },
+  "S_ADDRESS_BOOK_OPTIONS_MAKE_CALL": {
+    "S_TITLE": "Faire un appel",
+    "S_PLACEHOLDER": "Saisir le nom ou le numéro...",
+    "S_ACTION": "Faire un appel"
+  },
+  "S_ADDRESS_BOOK_OPTIONS_TRANSFER": {
+    "S_TITLE": "Transférer",
+    "S_PLACEHOLDER": "Saisir le nom ou le numéro...",
+    "S_ACTION": "Transférer"
+  },
+  "S_ADDRESS_BOOK_OPTIONS_TRANSFER_VOICEMAIL": {
+    "S_TITLE": "Transférer le message vocal",
+    "S_PLACEHOLDER": "Saisir le nom ou le numéro...",
+    "S_ACTION": "Transférer"
+  },
+  "S_ADDRESS_BOOK_OPTIONS_CONFERENCE": {
+    "S_TITLE": "Conférence téléphonique ouverte (ajouter un participant)",
+    "S_PLACEHOLDER": "Saisir le nom ou le numéro...",
+    "S_ACTION": "Ajouter un participant"
+  },
+  "S_ADDRESS_BOOK_OPTIONS_RETURN_MISSED_CALL": {
+    "S_TITLE": "Retourner l’appel manqué",
+    "S_PLACEHOLDER": "Saisir le nom ou le numéro...",
+    "S_ACTION": "Appel"
+  },
+  "S_CONTACT_SAVE_CONFIRM_DIALOG": {
+    "S_TITLE": "Sélectionner une option",
+    "S_MESSAGE": "L’enregistrement du contact a été mis à jour.  Désirez-vous le sauvegarder?"
+  },
+  "S_SELECT_CONTACT": "Sélectionner un contact",
+  "S_READY_SELECT": {
+    "S_READY": "Prêt",
+    "S_READY_HEADER": "États Prêt",
+    "S_READY_FOR": "Prêt pour...",
+    "S_NOT_READY": "Non prêt",
+    "S_NOT_READY_HEADER": "États Non prêt",
+    "S_PENDING_LABEL": "État d’attente :",
+    "S_CHANNELS": {
+      "S_CALL": "Voix",
+      "S_VOICEMAIL": "MV",
+      "S_TEXT": "Texte"
+    },
+    "S_CHANNELS_LONG": {
+      "S_CALL": "Voix",
+      "S_VOICEMAIL": "Message vocal",
+      "S_TEXT": "Texte"
+    },
+    "S_SYSTEM": {
+      "S_SYSTEM_NOT_READY": "Système",
+      "S_FORCED_NOT_READY": "Forcé",
+      "S_TASK_COMPLETION": "Achèvement de la tâche",
+      "S_TEXT": "Texte"
+    },
+    "S_ERROR_MESSAGES": {
+      "S_ERROR_TITLE": "Non prêt pour les appels",
+      "S_SYSTEM_NOT_READY": "Un appel vous a été proposé, mais votre station ne semble pas être connectée. Vous êtes défini à Non prêt, vous pouvez donc redémarrer votre station avant de prendre un autre appel.",
+      "S_SYSTEM_NOT_READY_FOR_EMPTY_STATION": "Un appel vous a été proposé, mais vous n’avez pas choisi de station quand vous vous êtes connecté. Vous êtes défini à Non prêt.",
+      "S_SYSTEM_NOT_READY_UNANSWERED": "Votre état est automatiquement défini à Non prêt parce qu’un appel vous a été proposé et n’a pas obtenu de réponse durant la période du délai d’expiration.<br/> Veuillez définir votre état à Prêt pour recommencer à prendre des appels.",
+      "S_SYSTEM_NOT_READY_UNANSWERED_SOCIAL": "Votre état est automatiquement défini à Non prêt parce qu’une interaction vous a été proposée (et n’a pas obtenu de réponse durant la période du délai d’expiration) ou parce qu’un clavardage auquel vous répondiez a été remis en file d’attente.<br/><br/>Veuillez définir votre état à Prêt pour recommencer à prendre des interactions."
+    },
+    "S_ENTER_TASK_COMPLETE": "Vous avez été commuté à l’état Achèvement de la tâche, car il y a des tâches non terminées",
+    "S_PENDING_STATE_TITLE": "État en instance",
+    "S_PENDING_STATE_MESSAGE": "Votre nouvel état sera défini après que la minuterie sera écoulée.",
+    "S_PENDING_STATE_MANUAL_CALL_TITLE": "Appels manuels non permis",
+    "S_PENDING_STATE_MANUAL_CALL_MESSAGE": "Après l’écoulement de la minuterie, votre état sera défini à Non prêt. Vous pourrez alors effectuer des appels manuels."
+  },
+  "S_INTERACTION_LINKS": {
+    "S_SELECT_CONTACT": "Recherche de contact",
+    "S_WORKSHEET": "Feuille de calcul",
+    "S_CONNECTORS": "Connecteurs",
+    "S_ADD_TO_DNC": "Ajouter à la liste d’exclusion (LNNTE)"
+  },
+  "S_CALL_TYPES": {
+    "S_PREVIEW": "Aperçu",
+    "S_QUEUE_CALLBACK": "Rappel automatique"
+  },
+  "S_PREVIEW": {
+    "S_OTHER_NUMBER_TITLE": "Autre numéro",
+    "S_OTHER_NUMBER_MESSAGE": "Désirez-vous composer un autre numéro?",
+    "S_SET_NOT_READY_ON_EXPIRED": "Votre état a été automatiquement défini à Non prêt parce qu’un aperçu d’appel vous a été proposé et vous n’avez pas fait d’appel ni défini une disposition de saut durant la période du délai d’expiration.<br/> Veuillez définir votre état à Prêt pour recommencer à prendre des appels."
+  },
+  "S_INTERACTION_HEADER": {
+    "S_CALL_TRANSFER": "Transférer...",
+    "S_CALL_TIMER_TOOLTIP": "Heure d’appel",
+    "S_ACW_TIMER_TOOLTIP": "Temps de travail restant après appel"
+  },
+  "S_SERVER_MAINTENANCE": {
+    "S_TITLE": "Commutation pour la maintenance du serveur",
+    "S_RELOGIN": "La mise à jour du système nécessite une actualisation de page.  Veuillez terminer votre travail dès que possible pour commencer la commutation.",
+    "S_MAINT_TITLE": "Maintenance",
+    "S_CANCELED": "Maintenance annulée.",
+    "S_COMPLETED": "Maintenance terminée.",
+    "S_NOTIFY_STARTED": "Mode Maintenance démarré",
+    "S_NOTIFY_SWITCH_BACKUP": "Votre application a automatiquement commuté au centre de données de sauvegarde.",
+    "S_NOTIFY_SWITCH_PRIMARY": "Votre application a automatiquement commuté au centre de données principal.",
+    "S_SERVICE_MIGRATED": "Le service a migré.  Reconnexion au serveur de l’application",
+    "S_GR_MIGRATED": "Migration de redondance géographique.  Reconnexion au serveur de l’application"
+  },
+  "S_MEDIA_CONTROLS": "Commandes du support",
+  "S_NEXT_BEST_ACTION": {
+    "S_TITLE_SINGULAR": "Prochaine meilleure action recommandée",
+    "S_TITLE_PLURAL": "Prochaines meilleures actions recommandées ({0})",
+    "S_TOOLTIP": "Liste non ordonnée par priorité."
+  },
+  "S_APP_TITLE": "Ordinateur d’agent Plus",
+  "S_YES": "Oui",
+  "S_YES_ALL": "Oui à tout",
+  "S_NO": "Non",
+  "S_ADD": "Ajouter",
+  "S_OK": "OK",
+  "S_CONFIRM": "Confirmer",
+  "S_CONFIRM_LEAVE": "Confirmer et quitter",
+  "S_DISMISS": "Ignorer",
+  "S_SUBMIT": "Soumettre",
+  "S_APPLY": "Appliquer",
+  "S_SAVE": "Enregistrer",
+  "S_CANCEL": "Annuler",
+  "S_DELETE": "Supprimer",
+  "S_DISCARD": "Rejeter",
+  "S_REMOVE": "Supprimer",
+  "S_PARK": "Mettre en garde",
+  "S_TRANSFER": "Transférer",
+  "S_CLOSE": "Fermer",
+  "S_EDIT": "Modifier",
+  "S_NEXT": "Suivant",
+  "S_BROWSE": "Parcourir",
+  "S_PLAY": "Lire",
+  "S_STOP": "Arrêter",
+  "S_CHOOSE_ONE": "Choisir un...",
+  "S_COUNT": "Compte",
+  "S_STEP": "Étape",
+  "S_CONNECT": "Se connecter",
+  "S_WARNING": "Avertissement",
+  "S_TRUE": "Vrai",
+  "S_FALSE": "Faux",
+  "S_SELECT_ALL": "Sélectionner tout",
+  "S_SELECTED": "Sélectionné",
+  "S_SORT_NEWEST": "Plus récent en premier",
+  "S_SORT_OLDEST": "Plus ancien en premier",
+  "S_ERROR": "Erreur",
+  "S_SHOW": "Afficher",
+  "S_HIDE": "Cacher",
+  "S_CUSTOMER_SERVICE_PORTAL": "Portail de soutien au client",
+  "S_UNKNOWN_SENDER": "Courriel inconnu",
+  "S_TYPE": "Type",
+  "S_UNDEFINED": "Indéfini",
+  "S_CAMPAIGN_NAME": "Campagne",
+  "S_NONE_CAMPAIGN_NAME": "Campagne : aucune",
+  "S_NONE_CAMPAIGN_LIST": "[Aucun]",
+  "S_NONE": "Aucune",
+  "S_DELETED_CAMPAIGN": "[Campagne supprimée]",
+  "S_LOGOUT": "Se déconnecter",
+  "S_LOGOUT_MSG": "Voulez-vous vous déconnecter?",
+  "S_GENERAL_KEYBOARD": {
+    "S_NO_SHORTCUTS": "Aucun raccourci clavier disponible en ce moment.",
+    "S_GENERAL_TITLE": "Raccourcis clavier"
+  },
+  "S_INTERACTIONS": {
+    "S_NO_ACTIVE_INTERACTION": "Aucune interaction active",
+    "S_VIEW_MY_ACTIVITY": "Afficher mon activité"
+  },
+  "S_ERRORS_CONTACT_FORM": {
+    "S_INVALID_PHONE_TITLE": "Numéro de téléphone non valide",
+    "S_INVALID_PHONE_MESSAGE": "Vous avez saisi un numéro de téléphone non valide pour {0}.",
+    "S_INVALID_DATE_TIME_TITLE": "Date/Heure non valide.",
+    "S_INVALID_DATE_TIME_MESSAGE": "Vous avez saisi une valeur de date/heure non valide pour {0}. Veuillez saisir cette valeur au format {1}",
+    "S_INVALID_DATE_TITLE": "Date non valide.",
+    "S_INVALID_DATE_MESSAGE": "Vous avez saisi une valeur de date non valide pour {0}. Veuillez saisir cette valeur au format {1}",
+    "S_INVALID_TIME_TITLE": "Heure non valide.",
+    "S_INVALID_TIME_MESSAGE": "Vous avez saisi une valeur d’heure non valide pour {0}. Veuillez saisir cette valeur au format {1}"
+  },
+  "S_REMINDERS": {
+    "S_REMINDER_MOVED_TITLE": "Rappel déplacé",
+    "S_REMINDER_MOVED_FROM_MESSAGE": "L’administrateur a déplacé ce rappel vers un autre utilisateur ou l’a supprimé :<br/><b>{0}{1} - {2}</b>",
+    "S_REMINDER_MOVED_TO_MESSAGE": "L’administrateur a déplacé un rappel vers vous :<br/><b>{0}{1} - {2}</b>",
+    "S_DELETED": "[Supprimé]"
+  },
+  "S_AGENT_SKILLS": {
+    "S_ACTIVATE": "Activer",
+    "S_SHOW_SKILLS": "Afficher mes compétences",
+    "S_SKILL_GROUP_ADDED": "Groupe de compétences ajouté",
+    "S_SKILL_GROUP_REMOVED": "Groupe de compétences supprimé",
+    "S_ERROR_SAVING_SKILL": "Erreur lors de l’enregistrement de la compétence",
+    "S_ERROR_SAVING_SKILL_MESSAGE": "Une erreur est survenue lors de l’enregistrement de votre compétence."
+  },
+  "S_LOG_ISSUE_DIALOG": {
+    "S_TITLE": "Problème de journal",
+    "S_DESCRIPTION": "Saisir une brève description du problème que vous avez :",
+    "S_INPUT_PLACEHOLDER": "Description du problème...",
+    "S_WARNING": "Les journaux d’application seront envoyés à Five9 à des fins de dépannage.",
+    "S_SOFTPHONE_LOCATION": "Les journaux binaires du téléphone logiciel peuvent se trouver dans votre disque dur :",
+    "S_OS_WINDOWS": {
+      "S_LOCATION": "%appdata%/Five9/Logs",
+      "S_TOOLTIP": "1. Copiez/Collez le chemin dans l’Explorateur Windows<br />2. Compressez (ZIP) le dossier \"websoftphone\" complet<br />3. Envoyez par courriel le dossier compressé au soutien Five9<br />ou à votre administrateur"
+    },
+    "S_OS_OSX": {
+      "S_LOCATION": "~/Library/Application Support/Five9/Logs",
+      "S_TOOLTIP": "1. Outil de recherche (Atteindre->Atteindre le dossierâ€¦)<br />2. Compressez (ZIP) le dossier \"websoftphone\" complet<br />3. Envoyez par courriel le dossier compressé au soutien Five9<br />ou à votre administrateur"
+    },
+    "S_SUBMIT_SUCCESS": "Le problème a été envoyé avec succès. Merci!",
+    "S_SUBMIT_FAIL": "Il y a eu un problème lors de l’envoi de votre problème. Veuillez réessayer."
+  },
+  "S_LOGOUT_REASON_DIALOG": {
+    "S_TITLE": "Déconnexion",
+    "S_MESSAGE": "Confirmer en sélectionnant un code de motif de déconnexion.",
+    "S_CONFIRM": "Confirmer la déconnexion"
+  },
+  "S_LOGOUT_WARN_DIALOG": {
+    "S_TITLE": "Temporisation de la session",
+    "S_MESSAGE": "Suite à une période d’inactivité, vous serez déconnecté à {0}.<br />Désirez-vous demeurer connecté?",
+    "S_BTN_YES": "Demeurer connecté",
+    "S_BTN_NO": "Se déconnecter"
+  },
+  "S_MAINTENANCE_MODE_DIALOG": {
+    "S_TITLE": "Maintenance",
+    "S_MAINTENANCE_MESSAGE": "La maintenance commencera dans {0} minutes {1} secondes.",
+    "S_MAINTENANCE_MESSAGE_NO_MIN": "La maintenance commencera dans {0} secondes."
+  },
+  "S_MAINTENANCE_NOTICE_DIALOG": {
+    "S_TITLE": "Avis Five9",
+    "S_ACKNOWLEDGE": "Accepter"
+  },
+  "S_OBSOLETE_CONTACT_DIALOG": {
+    "S_TITLE": "Contact périmé",
+    "S_MESSAGE": "Ce contact a été modifié par un autre utilisateur.",
+    "S_ACCEPT": "Recharger le contact"
+  },
+  "S_READY_FOR_DIALOG": {
+    "S_TITLE": "Prêt pour...",
+    "S_MESSAGE": "Sélectionner les canaux avec lesquels vous désirez travailler lorsque vous sélectionnez l’état Prêt :"
+  },
+  "S_RECONNECTING_TO_SERVER_DIALOG": {
+    "S_TITLE": "VEUILLEZ PATIENTER",
+    "S_TITLE_MAINT": "AVIS FIVE9",
+    "S_DESCRIPTION": "Reconnexion au serveur de l’application",
+    "S_DESCRIPTION_MAINT": "Le système Five9 est actuellement indisponible pour cause de maintenance. Il sera disponible bientôt. Veuillez vérifier le {0} ou joindre votre administrateur Five9 si vous avez des questions.",
+    "S_RELOAD": "Recharger"
+  },
+  "S_REMINDER_DIALOG": {
+    "S_NEW_REMINDER_TITLE": "NOUVEAU RAPPEL",
+    "S_EDIT_REMINDER_TITLE": "MODIFIER LE RAPPEL",
+    "S_REMINDER_TITLE": "RAPPEL",
+    "S_SELECT_CONTACT_TITLE": "CONTACT SÉLECTIONNER",
+    "S_SAVE": "Enregistrer",
+    "S_DISMISS": "Ignorer",
+    "S_EDIT": "Modifier",
+    "S_SNOOZE": "Reporter",
+    "S_COMPLETE": "Terminer",
+    "S_MAKE_CALL_TT": "Faire un appel...",
+    "S_MAKE_CALL_BUTTON": "Faire un appel",
+    "S_ON_CALL": "Sur appel actif",
+    "S_DESCRIPTION": "Description...",
+    "S_DUE": "Échéance",
+    "S_PHONE": "Téléphone",
+    "S_CONTACT": "Contact",
+    "S_CAMPAIGN": "Campagne",
+    "S_PLACEHOLDER": "Numéro de téléphone ou nom d’utilisateur",
+    "S_ATTACHED_CONTACT_NAME": "Nom de contact joint",
+    "S_NO_ATTACHED_CONTACT": "Aucun contact joint",
+    "S_CONTACT_DETAILS_UNAVAILABLE": "Détails du contact indisponibles",
+    "S_NO_CONTACT": "Aucun contact",
+    "S_CONTACT_DETAILS": "Détails du contact",
+    "S_REMIND_ME_AGAIN": "Reporter pendant",
+    "S_ATTACH": "Joindre",
+    "S_DETACH": "Détacher",
+    "S_PRIMARY": "Principal",
+    "S_ALTERNATE_1": "Autre 1",
+    "S_ALTERNATE_2": "Autre 2",
+    "S_TYPES": {
+      "S_AGENTS": "Agents",
+      "S_AGENT": "Agent",
+      "S_SPEEDDIALS": "Compositions abrégées",
+      "S_SPEEDDIAL": "Composition abrégée",
+      "S_EXTERNAL": "Externe"
+    },
+    "S_SNOOZE_TIMES": {
+      "S_ONE_MINUTE": "1 minute",
+      "S_FIVE_MINUTES": "5 minutes",
+      "S_TEN_MINUTES": "10 minutes",
+      "S_THIRTY_MINUTES": "30 minutes",
+      "S_ONE_HOUR": "1 heure",
+      "S_TWO_HOURS": "2 heures",
+      "S_FOUR_HOURS": "4 heures",
+      "S_EIGHT_HOURS": "8 heures",
+      "S_ONE_DAY": "1 jour",
+      "S_TWO_DAYS": "2 jours",
+      "S_THREE_DAYS": "3 jours",
+      "S_FOUR_DAYS": "4 jours",
+      "S_ONE_WEEK": "1 semaine"
+    }
+  },
+  "S_REMINDER_MULTIPLE_DIALOG": {
+    "S_TITLE": "{0} RAPPELS",
+    "S_DISMISS_ALL": "Masquer tout",
+    "S_DISMISS_ALL_TITLE": "Reporter jusqu’à la fin de la session actuelle.",
+    "S_SNOOZE_ALL": "Reporter tout ({0})",
+    "S_REMINDERS_MESSAGE": "Vous avez {0} rappels dus ou échus.",
+    "S_SETTINGS_MESSAGE": "Les fenêtres contextuelles de rappel peuvent être désactivées dans vos paramètres."
+  },
+  "S_REMOVE_VM_DIALOG": {
+    "S_TITLE": "Supprimer le message vocal",
+    "S_NEW": "Nouveau",
+    "S_NUMBER": "Numéro",
+    "S_LENGTH": "Durée",
+    "S_DESCRIPTION": "Description",
+    "S_CREATED": "Créé",
+    "S_CAMPAIGN": "Campagne",
+    "S_CONTEXT_TEXT": "Êtes-vous sûr de vouloir supprimer {0} messages vocaux personnels?"
+  },
+  "S_REQUEST_HELP": {
+    "S_TITLE": "Demander de l’aide",
+    "S_SUB_TITLE": "Soumettre une demande d’aide à :",
+    "S_ADMINISTRATORS": "Administrateurs",
+    "S_SUPERVISORS": "Superviseurs",
+    "S_ALL": "Tous",
+    "S_MY_SKILL": "Avec l’une de mes compétences",
+    "S_SKILL": "Uniquement avec compétence",
+    "S_GROUP": "Superviseur de groupe",
+    "S_CANCEL": "Annuler",
+    "S_SEND_REQUEST": "Envoyer la demande",
+    "S_WAIT": "Veuillez attendre",
+    "S_DONE": "Votre demande d’aide a été envoyée avec succès.",
+    "S_CLOSE": "Fermer",
+    "S_ERROR_MESSAGES": {
+      "S_NO_ADMINISTRATORS_AVAILABLE": "Aucun administrateur n’est actuellement connecté. ",
+      "S_NO_SUPERVISORS_AVAILABLE": "Aucun superviseur n’est actuellement connecté.",
+      "S_NO_SUPERVISORS_SKILLS_AVAILABLE": "Aucun superviseur avec les compétences sélectionnées n’est actuellement connecté.",
+      "S_NO_SUPERVISORS_GROUPS_AVAILABLE": "Aucun superviseur pour le groupe sélectionné n’est actuellement connecté."
+    }
+  },
+  "S_SCHEDULE_REDIAL_DIALOG": {
+    "S_TITLE": "Planifier l’activation",
+    "S_CHOOSE_DATE_TIME": "Choisir la date et l’heure :",
+    "S_DEFAULT": "Par défaut",
+    "S_SET_DISPOSITION_ERROR_MSG": "Une erreur est survenue en définissant la disposition.",
+    "S_DATE_MUST_BE_IN_FUTURE": "Vous devez planifier une heure de rappel automatique plus tard."
+  },
+  "S_SETTINGS_DIALOG": {
+    "S_TITLE": "Paramètres",
+    "S_RESET": "Réinitialiser",
+    "S_PAGES": {
+      "S_VOICECHANNEL": "Voie téléphonique",
+      "S_AUDIODEVICES": "Dispositifs audio",
+      "S_SOUNDALERTS": "Alertes sonores",
+      "S_TEXTCHANNEL": "Voie texte",
+      "S_QUEUEFILTERS": "Filtre de la voie texte",
+      "S_DISTRIBUTION": "Distribution",
+      "S_PASSWORD": "Mot de passe"
+    },
+    "S_HEADERS": {
+      "S_GENERAL": "Général",
+      "S_AUTOANSWER": "Réponse automatique",
+      "S_SOUNDALERTS": "Lire un son pour ces événements...",
+      "S_TEXTCHANNEL_MEDIASTREAM": "Diffusion en continu",
+      "S_TEXTCHANNEL_PERSONALSIGNATURE": "Signature personnelle",
+      "S_AUDIODEVICES": "Sélectionner un dispositif audio",
+      "S_QUEUEFILTERS_SELECTFILTERS": "Sélectionner des filtres à appliquer à tous les éléments de la file d’attente.",
+      "S_QUEUEFILTERS_DATERANGE": "Plage de dates",
+      "S_QUEUEFILTERS_DATERANGE_STARTANDENDDATE": "Sélectionner une date de début et une date de fin ou seulement une",
+      "S_QUEUEFILTERS_DISPOSITIONS": "Dispositions",
+      "S_QUEUEFILTERS_CLUSTERS": "Groupes de services",
+      "S_QUEUEFILTERS_PROFILES": "Profils",
+      "S_QUEUEFILTERS_SENTIMENTS": "Sentiments",
+      "S_QUEUEFILTERS_PRIORITY": "Priorité",
+      "S_QUEUEFILTERS_SPAM": "POURRIEL",
+      "S_QUEUEFILTERS_DISTRIBUTION": "Distribution",
+      "S_QUEUEFILTERS_DISTRIBUTION_SOCIAL": "Média social",
+      "S_QUEUEFILTERS_DISTRIBUTION_CHAT": "Média de clavardage",
+      "S_QUEUEFILTERS_DISTRIBUTION_EMAIL": "Média de courriel",
+      "S_QUEUEFILTERS_DISTRIBUTION_AID": "AID",
+      "S_QUEUEFILTERS_DISTRIBUTION_CHERRY_PICKING": "Sélection aléatoire"
+    },
+    "S_ENABLE_CALLBACK_REMINDERS": {
+      "S_TITLE": "Activer les fenêtres contextuelles pour les rappels",
+      "S_DESCRIPTION": "Si cette option est activée, vous recevrez des avis de rappel de rappeler."
+    },
+    "SHOW_INCOMING_CALL_POP_UP": {
+      "S_TITLE": "Afficher la fenêtre contextuelle de l’appel entrant",
+      "S_DESCRIPTION": "Si décoché, les fenêtres contextuelles ne seront pas affichées pour les appels entrants."
+    },
+    "S_PHONECALLS_INBOUND": {
+      "S_TITLE": "Appels entrants/automatiques",
+      "S_DESCRIPTION": "Si décoché, l’agent doit accepter les appels entrants et automatiques."
+    },
+    "S_PHONECALLS_OUTBOUND": {
+      "S_TITLE": "Appels sortants",
+      "S_DESCRIPTION": "Si décoché, l’agent doit accepter les appels sortants."
+    },
+    "S_PHONECALLS_INTERNAL": {
+      "S_TITLE": "Appels internes",
+      "S_DESCRIPTION": "Si décoché, l’agent doit accepter les appels internes."
+    },
+    "SHOW_SELECT_SKILLS": {
+      "S_TITLE": "Sélectionner les compétences lors de la connexion",
+      "S_DESCRIPTION": ""
+    },
+    "ALERT_ON_OVERDUE_CALLBACK": {
+      "S_TITLE": "Rappel de rappeler",
+      "S_DESCRIPTION": ""
+    },
+    "ALERT_ON_INCOMING_MESSAGE_VOICE_ONLY": {
+      "S_TITLE": "Messagerie interne",
+      "S_DESCRIPTION": "Si coché, une tonalité jouera pour les messages instantanés entrants."
+    },
+    "ALERT_ON_INCOMING_MESSAGE": {
+      "S_TITLE": "Interactions texte et messages internes",
+      "S_DESCRIPTION": "Si coché, une tonalité jouera pour les messages instantanés entrants et les alertes texte (clavardage, courriel et social)."
+    },
+    "TONE_ON_INCOMING_OUTBOUND_CALL": {
+      "S_TITLE": "Nouvel appel sortant",
+      "S_DESCRIPTION": ""
+    },
+    "TONE_ON_INCOMING_AUTODIAL_CALL": {
+      "S_TITLE": "Nouvel appel automatique",
+      "S_DESCRIPTION": ""
+    },
+    "TONE_ON_INCOMING_INBOUND_CALL": {
+      "S_TITLE": "Nouvel appel entrant",
+      "S_DESCRIPTION": ""
+    },
+    "TONE_ON_INCOMING_PREVIEW_CALL": {
+      "S_TITLE": "Nouvel aperçu d’appel",
+      "S_DESCRIPTION": ""
+    },
+    "TONE_ON_INCOMING_EXTENSION_CALL": {
+      "S_TITLE": "Nouvel appel d’un poste",
+      "S_DESCRIPTION": ""
+    },
+    "TONE_ON_INCOMING_VOICEMAIL": {
+      "S_TITLE": "Nouveau message vocal",
+      "S_DESCRIPTION": ""
+    },
+    "S_TEXTCHANNEL_AUTOLOCK": {
+      "S_TITLE": "Verrouillage automatique sur la sélection d’éléments",
+      "S_DESCRIPTION": "Si décoché, l’agent doit verrouiller l’élément en cliquant sur l’icône de verrouillage après la sélection de l’élément."
+    },
+    "S_TEXTCHANNEL_SORT_INFLUENCE": {
+      "S_TITLE": "Trier par influence",
+      "S_DESCRIPTION": ""
+    },
+    "S_TEXTCHANNEL_RETRIEVE_NEW_ITEMS": {
+      "S_TITLE": "Sélectionner comment récupérer de nouveaux éléments depuis le serveur :",
+      "S_DESCRIPTION": ""
+    },
+    "S_TEXTCHANNEL_ENABLEPERSONALEMAILSIGNATURE": {
+      "S_TITLE": "Permet la signature personnelle pour les courriels",
+      "S_DESCRIPTION": ""
+    },
+    "S_QUEUEFILTERS_DATERANGE_FROM": {
+      "S_TITLE": "",
+      "S_DESCRIPTION": ""
+    },
+    "S_QUEUEFILTERS_DATERANGE_TO": {
+      "S_TITLE": "",
+      "S_DESCRIPTION": ""
+    },
+    "S_QUEUEFILTERS_SENTIMENTS_NEGATIVE": {
+      "S_TITLE": "Négatif",
+      "S_DESCRIPTION": "Sentiment négatif"
+    },
+    "S_QUEUEFILTERS_SENTIMENTS_NEUTRAL": {
+      "S_TITLE": "Neutre",
+      "S_DESCRIPTION": "Sentiment neutre"
+    },
+    "S_QUEUEFILTERS_SENTIMENTS_POSITIVE": {
+      "S_TITLE": "Positif",
+      "S_DESCRIPTION": "Sentiment positif"
+    },
+    "S_QUEUEFILTERS_PRIORITY_LEVEL1": {
+      "S_TITLE": "Niveau I",
+      "S_DESCRIPTION": "Niveau I "
+    },
+    "S_QUEUEFILTERS_PRIORITY_LEVEL2": {
+      "S_TITLE": "Niveau II",
+      "S_DESCRIPTION": "Niveau II"
+    },
+    "S_QUEUEFILTERS_PRIORITY_LEVEL3": {
+      "S_TITLE": "Niveau III",
+      "S_DESCRIPTION": "Niveau III"
+    },
+    "S_QUEUEFILTERS_SPAM_SHOWSPAM": {
+      "S_TITLE": "Afficher les éléments de POURRIEL",
+      "S_DESCRIPTION": ""
+    },
+    "S_QUEUEFILTERS_SPAM_HIDEALL": {
+      "S_TITLE": "Masquer tous les autres éléments",
+      "S_DESCRIPTION": ""
+    },
+    "S_QUEUEFILTERS_DISTRIBUTION_AID": {
+      "S_TITLE": "AID",
+      "S_DESCRIPTION": ""
+    },
+    "S_CHANGE_PASSWORD": {
+      "S_TITLE": "Modifier le mot de passe",
+      "S_FLD_CURRENT_PASSWORD": "Mot de passe actuel",
+      "S_FLD_NEW_PASSWORD": "Nouveau mot de passe",
+      "S_FLD_CONFIRM_PASSWORD": "Confirmer le mot de passe"
+    },
+    "S_AUTO_ACCEPT_SKILL_VOICEMAIL": {
+      "S_TITLE": "Accepter automatiquement un message vocal de compétence",
+      "S_DESCRIPTION": "Accepter automatiquement les messages vocaux de compétence."
+    },
+    "S_ECHO_CANCELLATION": {
+      "S_TITLE": "Annulation de l’écho acoustique",
+      "S_DESCRIPTION": "Annulation de l’écho acoustique "
+    },
+    "S_GAIN_CONTROL": {
+      "S_TITLE": "Contrôle automatique de gain",
+      "S_DESCRIPTION": "Contrôler automatiquement le gain du micro "
+    },
+    "S_MEDIA_DEVICES": {
+      "S_TITLE": "Dispositifs média",
+      "S_DESCRIPTION": "Sélections audio",
+      "S_TAKE_EFFECT": "Les sélections de dispositifs prennent effet immédiatement"
+    },
+    "S_GREETING": {
+      "S_TITLE": "Salutation",
+      "S_FORMAT_NOTICE": "Format accepté : WAV",
+      "S_PLACEHOLDER": "Sélectionner un fichier",
+      "S_LABEL": "Sélectionner un fichier à utiliser pour votre salutation",
+      "S_NOTICE_TITLE": "Salutation personnelle",
+      "S_NOTICE_UPLOADED": "Votre salutation personnelle est téléversée",
+      "S_NOTICE_UPLOAD_FAILED": "Échec du téléversement de votre salutation personnelle.  Veuillez réessayer.",
+      "S_NOTICE_RESET": "Votre salutation personnelle a été réinitialisée",
+      "S_NOTICE_RESET_ERROR": "Une erreur est survenue lors de la réinitialisation de la salutation",
+      "S_NOTICE_UPLOAD_ERROR": "Votre salutation n’est pas dans un format accepté"
+    }
+  },
+  "S_SOFTPHONE_UPDATE_DIALOG": {
+    "S_TITLE": "MISE À JOUR DU TÉLÉPHONE LOGICIEL",
+    "S_MESSAGE": "Le téléphone logiciel Five9 nécessite une mise à jour.",
+    "S_STATION_RESTART": "Votre station redémarrera automatiquement dès que l’installation sera terminée."
+  },
+  "S_STATION_SETUP": {
+    "S_TITLE": "CONFIGURATION DE LA STATION",
+    "S_TYPE_LABEL": "Type de station",
+    "S_TYPE_SOFTPHONE": "Téléphone logiciel",
+    "S_TYPE_PSTN": "RTCP",
+    "S_TYPE_GATEWAY": "Passerelle",
+    "S_TYPE_EMPTY": "Aucun",
+    "S_ID_LABEL": "ID de station",
+    "S_NUMBER_LABEL": "Numéro de station",
+    "S_SIP_ADDRESS_LABEL": "Adresse de station",
+    "S_SOFTPHONE_INITIALIZATION": "Chargement du téléphone logiciel Five9...",
+    "S_SOFTPHONE_INSTALLATION": "Veuillez installer le téléphone logiciel Five9 :",
+    "S_SOFTPHONE_INSTALLER": "Installer l’extension du navigateur Five9",
+    "S_SOFTPHONE_EXTENSION": "Télécharger et installer le téléphone logiciel Five9",
+    "S_SOFTPHONE_EXTENSION_NOTE": "Veuillez actualiser la page après l’installation",
+    "S_CONNECT_STATION": "Se connecter à la station",
+    "S_GET_SAVED_VALUES": "Obtenir vos valeurs précédentes.",
+    "S_ERROR_STATION_ID_MISSED_FIELD": "L’ID de la station est obligatoire",
+    "S_ERROR_STATION_VALUE_INVALID_FIELD": "La valeur de la station est non valide",
+    "S_ERROR_STATION_ID_INVALID_FIELD": "L’ID de la station est non valide",
+    "S_ERROR_STATION_NUMBER_MISSED_FIELD": "Le numéro de la station est obligatoire",
+    "S_ERROR_STATION_NUMBER_INVALID_FIELD": "Le numéro de la station est non valide",
+    "S_ERROR_STATION_ADDRESS_MISSED_FIELD": "L’adresse de la station est obligatoire",
+    "S_ERROR_STATION_ADDRESS_INVALID_FIELD": "L’adresse de la station que vous avez spécifiée est non valide",
+    "S_ERROR_STATION_ADDRESS_INUSE_FIELD": "L’adresse de la station que vous avez spécifiée est actuellement utilisée.",
+    "S_ERROR_NO_ANSWER": "Aucune réponse de la station de l’agent",
+    "S_ERROR_CANT_CONNECT": "Ne peut pas se connecter à la station de l’agent",
+    "S_ERROR_ACCOUNT_LOCKED": "Votre compte a été verrouillé.",
+    "S_ERROR_RESTART_STATION_FAILED": "Échec du redémarrage de la station",
+    "S_ERROR_STATION_RESTARTING": "La station redémarre",
+    "S_ERROR_STATION_BUSY": "La station est occupée",
+    "S_ERROR_UNKNOWN": "Erreur inconnue"
+  },
+  "S_STATION_TONE_CHECK": {
+    "S_TITLE": "VÉRIFICATION DE LA STATION",
+    "S_ALTERNATE_TITLE": "Station non connectée",
+    "S_CONNECTION_SUCCESSFUL": "Connexion réussie",
+    "S_CONNECTION_MESSAGE_SOFTPHONE": "Si vous n’entendez pas 3 tonalités, modifiez les <b>dispositifs audio</b> ci-dessous et redémarrez votre station ou faites<span class='back-link'>Retour</span> à la Configuration de la station.",
+    "S_CONNECTION_MESSAGE": "Si vous n’entendez pas 3 tonalités, cliquez sur <span class='back-link'>Retour</span> pour modifier les paramètres et la station et réessayer.",
+    "S_NOT_CONNECTED": "Vous avez choisi de ne pas vous connecter à votre station.",
+    "S_NOT_CONNECTED_MESSAGE": "Pour vous connecter plus tard, redémarrez votre station.",
+    "S_NO_STATION": "Vous avez choisi de ne pas sélectionner de station.",
+    "S_NO_STATION_MESSAGE": "Pour sélectionner une station, retournez à la Configuration de la station ou continuez sur l’application.",
+    "S_SOFTPHONE_INSTALLATION_MESSAGE": "La station de téléphone logiciel nécessite deux composants supplémentaires.",
+    "S_SOFTPHONE_INSTALLATION_MESSAGE_1": "La station de téléphone logiciel nécessite un composant supplémentaire.",
+    "S_SOFTPHONE_EXTENSION": "Installer l’extension du navigateur Five9",
+    "S_SOFTPHONE_INSTALLER": "Télécharger et installer le téléphone logiciel Five9",
+    "S_NO_AUDIO_DEVICES": "Vos périphériques audio ne peuvent pas être détectés.",
+    "S_NO_AUDIO_DEVICES_MESSAGE": "Vérifiez ci-dessous que vos périphériques audio (casque d’écoute, haut-parleurs et/ou microphone) sont installés, branchés et configurés correctement. Si le problème persiste, retournez à la modification du type de station ou communiquez avec votre administrateur.",
+    "S_INSTALL_STEP1": "Étape 1",
+    "S_INSTALL_STEP2": "Étape 2",
+    "S_AUDIO_DEVICES": "Dispositifs audio",
+    "S_RESTART_STATION": "Redémarrer la station",
+    "S_BACK_BUTTON": "Retour",
+    "S_ERROR_RESTART_STATION_FAILED": "Échec de connexion de la station.  Réessayer.",
+    "S_ERROR_STATION_RESTARTING": "La station redémarre",
+    "S_ERROR_STATION_BUSY": "La station est occupée",
+    "S_ERROR_REGISTRATION_FAILED": "Échec de l’enregistrement du téléphone logiciel sur le serveur proxy",
+    "S_ERROR_DOWNLOAD_FAILED": "Échec du téléchargement du paquetage de mise à jour sur le téléphone logiciel",
+    "S_ERROR_BROWSER_RESTART_REQUIRED_TITLE": "Redémarrage du navigateur requis",
+    "S_ERROR_BROWSER_RESTART_REQUIRED": "Votre configuration a été mise à jour. Redémarrer votre navigateur pour appliquer la modification.",
+    "S_ERROR_UNKNOWN": "Erreur inconnue",
+    "S_CONNECTION_ERROR_MESSAGE": "Problème de connexion à votre station.<br/>  <span class='back-link'>Retourner</span> à la configuration de la station et réessayer.",
+    "S_REFRESH": "Actualiser",
+    "S_REFRESH_MESSAGE": "pour vérifier l’installation",
+    "S_ERROR_ICA_CONNECTION_NOT_FOUND": "Impossible de trouver un homologue VDI. Veuillez joindre votre administrateur.",
+    "S_ERROR_CONNECTING_TO_VDI_CLIENT_FAILED": "Impossible de se connecter au client VDI. Veuillez démarrer le client VDI ou joindre votre administrateur",
+    "S_VDI_MODE_SOFTPHONE_INSTALL": "Vous n’avez pas l’autorisation d’installer un téléphone logiciel. Veuillez joindre votre administrateur."
+  },
+  "S_STATUS_BAR": {
+    "S_STATS_ACD": {
+      "S_TITLE": "État de la DAA :",
+      "S_SKILL_COUNT": "Mes compétences",
+      "S_INQUEUE_CALL_COUNT": "Appels",
+      "S_INQUEUE_CALLBACK_COUNT": "Rappels automatiques",
+      "S_INQUEUE_LONGEST_TIME": "Plus longue attente",
+      "S_MORE": "Détails",
+      "S_DEFAULT_SKILL_NAME": "[Par défaut]",
+      "S_GRID_HEADERS": {
+        "S_SKILL_COUNT": "Compétences",
+        "S_INQUEUE_CALL_COUNT": "Appels",
+        "S_INQUEUE_CALLBACK_COUNT": "Rappels automatiques",
+        "S_INQUEUE_LONGEST_TIME": "Attendre"
+      }
+    },
+    "S_AGENT_STATION": {
+      "S_DISCONNECTED": "Déconnecté",
+      "S_CONNECTED": "Connecté",
+      "S_CONNECTING": "Connexion en cours...",
+      "S_GATEWAY_UNKNOWN": "",
+      "S_TYPE_SOFTPHONE": "Téléphone logiciel",
+      "S_TYPE_PSTN": "RTCP",
+      "S_TYPE_GATEWAY": "Passerelle",
+      "S_TYPE_EMPTY": "Aucun",
+      "S_BUTTON_RESTART": "Redémarrer la station",
+      "S_BUTTON_RESTARTING": "Redémarrage en cours..."
+    },
+    "S_VOLUME_CONTROL": {
+      "S_CAPTURE_NAME": "Micro",
+      "S_PLAYBACK_NAME": "Volume",
+      "S_DISABLED": "Les contrôles de volume sont désactivés pour les stations sans téléphone logiciel",
+      "S_BROKEN": "Contrôle de volume désactivé. Redémarrer la station."
+    }
+  },
+  "S_TCPA_DIALOG": {
+    "S_DEFAULT_TITLE": "Saisir à nouveau pour composer",
+    "S_TIME_REMAINING": "Temps restant :",
+    "S_OK": "Composer",
+    "S_CAPTION": "Mode Touche manuelle TCPA {0} activé.  Vous devez saisir à nouveau manuellement le numéro que vous voyez ci-dessous.",
+    "S_TYPE_PLACEHOLDER": "Saisir à nouveau pour composer..."
+  },
+  "S_TOPIC_DIALOG": {
+    "S_TITLE": "Fil du sujet",
+    "S_NAME_PLACE_HOLDER": "Saisir un nom de sujet..."
+  },
+  "S_WORKSHEET": {
+    "S_WORKSHEET_TITLE": "Feuille de calcul",
+    "S_SHOW_STEPS": "Afficher les étapes",
+    "S_YES": "Oui",
+    "S_CANCEL": "Annuler",
+    "S_NEXT": "Suivant",
+    "S_PREVIOUS": "Précédent",
+    "S_FINISH": "Finir"
+  },
+  "S_PRES_MODEL_WORKSHEET": {
+    "S_VALUE_LENGTH_SHOULD_BE_GREATER_THAN": "La longueur de la valeur devrait être supérieure à {0}",
+    "S_VALUE_LENGTH_SHOULD_BE_LESS_THAN": "La longueur de la valeur devrait être inférieure à {0}",
+    "S_VALUE_DOESNT_MATCH_REGULAR_EXPRESSION": "La valeur ne correspond pas à une expression régulière",
+    "S_VALUE_DOESNT_MATCH_URL_FORMAT": "La valeur ne correspond pas au format d’URL",
+    "S_VALUE_DOESNT_MATCH_PHONE_FORMAT": "La valeur ne correspond pas au format de téléphone",
+    "S_VALUE_DOESNT_MATCH_EMAIL_FORMAT": "La valeur ne correspond pas au format de courriel",
+    "S_YOU_MUST_SPECIFY_NUMERIC_VALUE": "Vous devez spécifier une valeur numérique",
+    "S_VALUE_MUST_BE_GREATER_THAN": "La valeur doit être supérieure à {0}",
+    "S_VALUE_MUST_BE_SMALLER_THAN": "La valeur doit être inférieure à {0}",
+    "S_NUMBER_OF_DIGITS_BEFORE_DECIMAL_POINT_SHOULD_BE": "Le nombre de chiffres avant le point décimal devrait être {0}",
+    "S_NUMBER_OF_DIGITS_AFTER_DECIMAL_POINT_SHOULD_BE": "Le nombre de chiffres après le point décimal devrait être {0}",
+    "S_ANSWER_IS_REQUIRED": "Réponse requise"
+  }
+}
