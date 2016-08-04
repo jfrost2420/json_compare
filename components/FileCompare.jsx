@@ -102,9 +102,7 @@ export default class FileCompare extends React.Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount...');
-    setTimeout(() => {this.setState({done:true});}, 2000)
-    
+    setTimeout(() => {this.generateFileComparission().then((file) => this.setState({compareFile: file}));},500);
   }
 
   render() {
@@ -129,12 +127,12 @@ export default class FileCompare extends React.Component {
       width: '5%'
     };
 
-    const tableStyle = {
-      tableLayout: 'fixed',
+    const inputStyle = {
       width: '100%'
     };
 
-    const inputStyle = {
+    const tableStyle = {
+      tableLayout: 'fixed',
       width: '100%'
     };
 
@@ -143,38 +141,29 @@ export default class FileCompare extends React.Component {
       marginRight: '5px'
     };
 
-    var data = this.generateFileComparission();
-    var rows = [<tr key={'123'}><td>loading...</td></tr>];
-    var rows2 = [<tr key={'123'}><td>done...</td></tr>];
-    var that = this;
-
-    var temp = function(compareFile) {
-      var displayData;
-      
-
-      var buildRows = key => {
-        return rows.push(<tr key={key}>
-                              <td style={cellStyle}><span>{key}</span></td>
-                              <td style={cellStyle}><span>{compareFile[key].primaryValue}</span></td>
-                              <td style={editCellStyle}><input ref={key} style={inputStyle} placeholder="value" defaultValue={compareFile[key].secondaryValue}></input></td>
-                              <td><button type="button" className="btn btn-default btn-xs" onClick={e => this.onUpdateClicked(e.target, key)}>update</button></td>
-                            </tr>);
-      };
-
-      Object.keys(compareFile).map(buildRows.bind(this))
-
-      var test = '';  
-      //this.setState({});  
-    }
-
-    data.then(temp.bind(this));
+    var rows = [];
+    var rows2 = [<tr key={'123'}><td>loading...</td></tr>];
     var ret;
-    if(this.state && this.state.done) {
-      ret = rows2;
+
+
+    var buildRows = (key) => {
+      var compareFile = this.state.compareFile;
+      return rows.push(<tr key={key}>
+                            <td style={cellStyle}><span>{key}</span></td>
+                            <td style={cellStyle}><span>{compareFile[key].primaryValue}</span></td>
+                            <td style={editCellStyle}><input ref={key} style={inputStyle} placeholder="value" defaultValue={compareFile[key].secondaryValue}></input></td>
+                            <td><button type="button" className="btn btn-default btn-xs" onClick={e => this.onUpdateClicked(e.target, key)}>update</button></td>
+                          </tr>);
+    };
+
+    if(this.state && this.state.compareFile) {
+      Object.keys(this.state.compareFile).map(buildRows.bind(this))
+      ret = rows;
     } 
     else {
-      ret = rows;
+      ret = rows2;
     }
+    
     return (
       <div>
       <div style={style}>
